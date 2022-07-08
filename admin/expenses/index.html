@@ -1,0 +1,771 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="http://laundry.xfortechpvtltd.com/public/favicon/1655965727.png">
+    <title>
+        Lavanderia Tirol
+    </title>
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/poppinsfont.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link id="pagestyle" href="http://laundry.xfortechpvtltd.com/public/assets/css/argon-dashboard.min28b5.css?v=2.0.0" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/style.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/toastr.min.css" rel="stylesheet" />
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/chartjs.min.js"></script>
+    <script src="/livewire/livewire.js?id=c69d0f2801c01fcf8166" data-turbo-eval="false" data-turbolinks-eval="false" ></script><script data-turbo-eval="false" data-turbolinks-eval="false" >window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'HzxGYMxDgkXSncoNbmi1Q2ZJnOttBN9MfD7sKPRT';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+    <style >[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+    <script src="http://laundry.xfortechpvtltd.com/public/js/app.js" defer></script>
+    <style>
+</style></head>
+<body class="g-sidenav-show ">
+    <div class="min-height-300 bg-primary position-absolute w-100"></div>
+    <aside wire:id="tWH51FmbaB9cLZ1aaFpx" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;tWH51FmbaB9cLZ1aaFpx&quot;,&quot;name&quot;:&quot;components.side-bar&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;admin\/expense&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;c1727ffd&quot;,&quot;data&quot;:{&quot;lang&quot;:[]},&quot;dataMeta&quot;:{&quot;models&quot;:{&quot;lang&quot;:{&quot;class&quot;:&quot;App\\Models\\Translation&quot;,&quot;id&quot;:1,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;}}},&quot;checksum&quot;:&quot;a1860f7ee540b80006d4a863abdf94db358ba5dfbdfd2857a5b09f9810d2ea4e&quot;}}" class="  sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4 ps ps--active-y " id="sidenav-main" data-color="primary">
+        <div class="sidenav-header">
+            <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+            <a class="navbar-brand m-0" href="http://laundry.xfortechpvtltd.com/public/admin/dashboard">
+                <img src="http://laundry.xfortechpvtltd.com/public/logo/1655965727.png" class="navbar-brand-img h-100" alt="main_logo">
+                <span class="ms-2 h6 font-weight-bold text-uppercase">Lavanderia Tirol
+                </span>
+            </a>
+        </div>
+        <hr class="horizontal mt-0">
+        <div class="collapse navbar-collapse w-auto h-auto" id="sidenav-collapse-main">
+            <ul class="navbar-nav">
+                                <li class="nav-item">
+                    <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/dashboard">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-shop text-info text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Dashboard</span>
+                    </a>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/pos">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-tag text-danger text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Pos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/orders">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-basket text-success text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Orders</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/order-status">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-bullet-list-67 text-warning text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Order Status Screen</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#expense" class="nav-link active" aria-controls="settings" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-single-copy-04 text-danger text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Expense</span>
+                    </a>
+                    <div class="collapse show" id="expense">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link  active " href="http://laundry.xfortechpvtltd.com/public/admin/expense">
+                                    <span class="sidenav-mini-icon side-bar-inner"> E </span>
+                                    <span class="sidenav-normal side-bar-inner"> Expense List</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/expense/categories">
+                                    <span class="sidenav-mini-icon side-bar-inner"> E </span>
+                                    <span class="sidenav-normal side-bar-inner"> Expense Category</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/customers">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-single-02 text-pink text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Customers</span>
+                    </a>
+                </li>
+                                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#services" class="nav-link  " aria-controls="settings" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-tag text-primary text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Services</span>
+                    </a>
+                    <div class="collapse " id="services">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/service">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner">Service List</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/service/type">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner"> Service Type</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/service/addons">
+                                    <span class="sidenav-mini-icon side-bar-inner"> A </span>
+                                    <span class="sidenav-normal side-bar-inner"> Addons </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#tasks" class="nav-link " aria-controls="tasks" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-chart-bar-32 text-warning text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Reports</span>
+                    </a>
+                    <div class="collapse " id="tasks">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/daily">
+                                    <span class="sidenav-mini-icon side-bar-inner"> D </span>
+                                    <span class="sidenav-normal side-bar-inner"> Daily Report </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/order">
+                                    <span class="sidenav-mini-icon side-bar-inner"> O </span>
+                                    <span class="sidenav-normal side-bar-inner"> Order Report </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/sales">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner"> Sales Report</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/expense">
+                                    <span class="sidenav-mini-icon side-bar-inner"> E </span>
+                                    <span class="sidenav-normal side-bar-inner"> Expense Report </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/tax">
+                                    <span class="sidenav-mini-icon side-bar-inner"> T </span>
+                                    <span class="sidenav-normal side-bar-inner">Tax Report </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#settings" class="nav-link " aria-controls="settings" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-settings-gear-65 text-orange text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Tools</span>
+                    </a>
+                    <div class="collapse " id="settings">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/financial-year">
+                                    <span class="sidenav-mini-icon side-bar-inner"> F </span>
+                                    <span class="sidenav-normal side-bar-inner">Financial Year </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/translations">
+                                    <span class="sidenav-mini-icon side-bar-inner"> T </span>
+                                    <span class="sidenav-normal side-bar-inner"> Translations </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/mail">
+                                    <span class="sidenav-mini-icon side-bar-inner"> T </span>
+                                    <span class="sidenav-normal side-bar-inner"> Mail Settings </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/master">
+                                    <span class="sidenav-mini-icon side-bar-inner"> M </span>
+                                    <span class="sidenav-normal side-bar-inner"> Master Settings </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/file-tools">
+                                    <span class="sidenav-mini-icon side-bar-inner"> F </span>
+                                    <span class="sidenav-normal side-bar-inner"> File Tools </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/sms">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner">SMS Settings </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/staff">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner">Staff </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link" wire:click.prevent="logout" href="#">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-button-power text-secondary text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    <hr class="horizontal dark mt-2">
+</aside>
+<!-- Livewire Component wire-end:tWH51FmbaB9cLZ1aaFpx -->    <main class="main-content position-relative border-radius-lg ">
+    <div wire:id="RUM37GHRHywgOkJG9Aab" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;RUM37GHRHywgOkJG9Aab&quot;,&quot;name&quot;:&quot;components.header&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;admin\/expense&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;86ab9d18&quot;,&quot;data&quot;:{&quot;languages&quot;:{&quot;1&quot;:&quot;English&quot;,&quot;2&quot;:&quot;unfd&quot;,&quot;3&quot;:&quot;T\u00fcrk\u00e7e&quot;,&quot;4&quot;:&quot;Indonesia&quot;,&quot;6&quot;:&quot;francais&quot;,&quot;7&quot;:&quot;francais&quot;,&quot;8&quot;:&quot;Test&quot;,&quot;9&quot;:&quot;Portugu\u00eas&quot;,&quot;10&quot;:&quot;Tamil&quot;,&quot;12&quot;:&quot;English&quot;,&quot;13&quot;:&quot;English&quot;,&quot;14&quot;:&quot;Kurdish&quot;,&quot;15&quot;:&quot;Deutsch&quot;,&quot;16&quot;:&quot;\u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629&quot;,&quot;17&quot;:&quot;Malayalam&quot;},&quot;lang&quot;:[]},&quot;dataMeta&quot;:{&quot;collections&quot;:[&quot;languages&quot;],&quot;models&quot;:{&quot;lang&quot;:{&quot;class&quot;:&quot;App\\Models\\Translation&quot;,&quot;id&quot;:1,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;}}},&quot;checksum&quot;:&quot;1d3ece7d610107b902cc06b5ca8544c85765bda4abd8746ba657c707eeb3600c&quot;}}">
+    <nav class="navbar navbar-main navbar-expand-lg  px-0 mx-4 shadow-none border-radius-xl z-index-sticky "
+        id="navbarBlur" data-scroll="false">
+        <div class="container-fluid py-1 px-3">
+            <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none ">
+                <a href="javascript:;" class="nav-link p-0">
+                    <div class="sidenav-toggler-inner">
+                        <i class="sidenav-toggler-line bg-white"></i>
+                        <i class="sidenav-toggler-line bg-white"></i>
+                        <i class="sidenav-toggler-line bg-white"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+                <ul class="ms-md-auto  navbar-nav  justify-content-end">
+                    <li class="nav-item d-flex align-items-center me-2">
+                        <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/create" class="nav-link text-white font-weight-bold px-0"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            title="Add New Order" data-container="body"
+                            data-animation="true">
+                            <i class="fa fa-plus-circle me-sm-1"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center me-2">
+                        <a href="http://laundry.xfortechpvtltd.com/public/admin/service" class="nav-link text-white font-weight-bold px-0"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            title="Manage Services" data-container="body"
+                            data-animation="true">
+                            <i class="fa fa-tag me-sm-1"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center me-2">
+                        <a href="http://laundry.xfortechpvtltd.com/public/admin/customers" class="nav-link text-white font-weight-bold px-0"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            title="Manage Customers" data-container="body"
+                            data-animation="true">
+                            <i class="fa fa-user me-2"></i>
+                        </a>
+                    </li>
+                                        <li class="nav-item d-flex align-items-center">
+                        <div class="dropdown mx-2">
+                            <button class="btn btn-xs bg-white dropdown-toggle mb-0 text-primary" type="button"
+                                id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                English
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="top:0rem!important;">
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(1)">English</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(2)">unfd</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(3)">Türkçe</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(4)">Indonesia</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(6)">francais</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(7)">francais</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(8)">Test</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(9)">Português</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(10)">Tamil</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(12)">English</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(13)">English</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(14)">Kurdish</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(15)">Deutsch</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(16)">اللغة العربية</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(17)">Malayalam</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                    </li>
+                                        <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+                        <a href="javascript:;" class="nav-link text-white p-0" id="iconNavbarSidenav">
+                            <div class="sidenav-toggler-inner">
+                                <i class="sidenav-toggler-line bg-white"></i>
+                                <i class="sidenav-toggler-line bg-white"></i>
+                                <i class="sidenav-toggler-line bg-white"></i>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- Livewire Component wire-end:RUM37GHRHywgOkJG9Aab -->    <div class="container-fluid py-2">
+    <div wire:id="9f0lmGgri3o9hI4JaPFR" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;9f0lmGgri3o9hI4JaPFR&quot;,&quot;name&quot;:&quot;admin.expense.expenses&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;admin\/expense&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;bef262fe&quot;,&quot;data&quot;:{&quot;expense_category_id&quot;:null,&quot;expense_amount&quot;:null,&quot;expense_date&quot;:&quot;2022-07-08&quot;,&quot;payment_mode&quot;:null,&quot;tax_included&quot;:0,&quot;expenses&quot;:[],&quot;tax_percentage&quot;:null,&quot;note&quot;:null,&quot;search&quot;:null,&quot;lang&quot;:[],&quot;editMode&quot;:false},&quot;dataMeta&quot;:{&quot;modelCollections&quot;:{&quot;expenses&quot;:{&quot;class&quot;:&quot;App\\Models\\Expense&quot;,&quot;id&quot;:[39,38,36],&quot;relations&quot;:[&quot;expenseCategory&quot;,&quot;user&quot;],&quot;connection&quot;:&quot;mysql&quot;}},&quot;models&quot;:{&quot;lang&quot;:{&quot;class&quot;:&quot;App\\Models\\Translation&quot;,&quot;id&quot;:1,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;}}},&quot;checksum&quot;:&quot;7d6ee37ead57b5a154131e32b234432a4a6d408a627a3794305605b88a73468e&quot;}}">
+    <div class="row align-items-center justify-content-between mb-4">
+        <div class="col">
+            <h5 class="fw-500 text-white">Expense</h5>
+        </div>
+        <div class="col-auto">
+            <a data-bs-toggle="modal" data-bs-target="#addexpense" wire:click="resetInputFields"
+                class="btn btn-icon btn-3 btn-white text-primary mb-0">
+                <i class="fa fa-plus me-2"></i> Add New Expense
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+                <div class="card-header p-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control"
+                                placeholder="Search Here" wire:model="search">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table align-items-center mb-0">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th class="text-uppercase text-secondary text-xs opacity-7">
+                                        Date</th>
+                                    <th class="text-uppercase text-secondary text-xs opacity-7 ps-2">
+                                        Amount</th>
+                                    <th class="text-uppercase text-secondary text-xs  opacity-7">
+                                        Towards</th>
+                                    <th class="text-center text-uppercase text-secondary text-xs opacity-7">
+                                        Tax Included?</th>
+                                    <th class="text-uppercase text-secondary text-xs opacity-7 ps-2">
+                                        Payment Mode</th>
+                                    <th class="text-uppercase text-secondary text-xs opacity-7 ps-2">
+                                            Created By</th>
+                                    <th class="text-secondary opacity-7"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                                                    <tr>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                01/07/2022
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm font-weight-bold mb-0">100</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                Salary &amp; Wages</p>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <a type="button" class="badge badge-sm bg-dark text-uppercase">
+                                                                                                    Yes
+                                                                                            </a>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                CASH</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                Admin</p>
+                                        </td>
+                                        <td>
+                                            <a data-bs-toggle="modal" data-bs-target="#editexpense"
+                                                wire:click="edit(39)" type="button"
+                                                class="badge badge-xs badge-warning fw-600 text-xs">
+                                                Edit
+                                            </a>
+                                            <a href="#" type="button" wire:click="delete(39)"
+                                                class="ms-2 badge badge-xs badge-danger text-xs fw-600">
+                                                Delete
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                25/06/2022
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm font-weight-bold mb-0">50000</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                Electricity Bill</p>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <a type="button" class="badge badge-sm bg-dark text-uppercase">
+                                                                                                    Yes
+                                                                                            </a>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                CASH</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                Admin</p>
+                                        </td>
+                                        <td>
+                                            <a data-bs-toggle="modal" data-bs-target="#editexpense"
+                                                wire:click="edit(38)" type="button"
+                                                class="badge badge-xs badge-warning fw-600 text-xs">
+                                                Edit
+                                            </a>
+                                            <a href="#" type="button" wire:click="delete(38)"
+                                                class="ms-2 badge badge-xs badge-danger text-xs fw-600">
+                                                Delete
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                22/06/2022
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm font-weight-bold mb-0">8989</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                Electricity Bill</p>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <a type="button" class="badge badge-sm bg-dark text-uppercase">
+                                                                                                    No
+                                                                                            </a>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                CHEQUE</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                Admin</p>
+                                        </td>
+                                        <td>
+                                            <a data-bs-toggle="modal" data-bs-target="#editexpense"
+                                                wire:click="edit(36)" type="button"
+                                                class="badge badge-xs badge-warning fw-600 text-xs">
+                                                Edit
+                                            </a>
+                                            <a href="#" type="button" wire:click="delete(36)"
+                                                class="ms-2 badge badge-xs badge-danger text-xs fw-600">
+                                                Delete
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" wire:ignore.self id="addexpense" tabindex="-1" role="dialog"
+        aria-labelledby="addexpense" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title fw-600">Add Expense</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <div class="row g-2 align-items-center">
+                            <div class="col-md-12 mb-1">
+                                <label class="form-label">Date <span
+                                        class="text-danger">*</span></label>
+                                <input type="date" required class="form-control" wire:model="expense_date">
+                                                            </div>
+                            <div class="col-md-12 mb-1">
+                                <label
+                                    class="form-label">Expense Category<span
+                                        class="text-danger">*</span></label>
+                                                                <select class="form-control" wire:model="expense_category_id">
+                                    <option value="">
+                                        Choose Expense Category
+                                    </option>
+                                                                            <option value=25>tes</option>
+                                                                            <option value=24>Salary &amp; Wages</option>
+                                                                            <option value=23>Electricity Bill</option>
+                                                                            <option value=17>Detergente</option>
+                                                                            <option value=15>Electricidade</option>
+                                                                            <option value=14>Reparação de Máquinas de Lavar</option>
+                                                                            <option value=13>Manutenção de Máquinas de Lavar</option>
+                                                                            <option value=12>Manutenção Máquinas de Secagem</option>
+                                                                            <option value=2>Reagentes</option>
+                                                                    </select>
+                                                                </select>
+                            </div>
+                            <div class="col-md-12 mb-1">
+                                <label class="form-label">Expense Amount
+                                    <span class="text-danger">*</span></label>
+                                <input type="number" required class="form-control"
+                                    placeholder="Enter Amount"
+                                    wire:model="expense_amount">
+                                                            </div>
+                            <div class="col-md-12 mb-2">
+                                <label
+                                    class="form-label">Payment Mode</label>
+                                <select class="form-select" wire:model="payment_mode">
+                                    <option value="">Choose Payment Mode
+                                    </option>
+                                    <option class="select-box" value="1">Cash
+                                    </option>
+                                    <option class="select-box" value="2">UPI</option>
+                                    <option class="select-box" value="3">Card
+                                    </option>
+                                    <option class="select-box" value="4">Cheque
+                                    </option>
+                                    <option class="select-box" value="5">
+                                        Bank Transfer</option>
+                                </select>
+                                                            </div>
+                            <div class="col-md-12 mb-1">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <label class="form-label">Tax Included
+                                        ?</label>
+                                    <div class="form-check ms-4">
+                                        <input class="form-check-input" type="radio" id="no" name="tax"
+                                            wire:model="tax_included" value="0">
+                                        <label class="form-check-label"
+                                            for="no">No</label>
+                                    </div>
+                                    <div class="form-check ms-2">
+                                        <input class="form-check-input" type="radio" id="yes" name="tax"
+                                            wire:model="tax_included" value="1">
+                                        <label class="form-check-label"
+                                            for="yes">Yes</label>
+                                    </div>
+                                                                    </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="inputAddress"
+                                    class="form-label">Notes</label>
+                                <textarea class="form-control"
+                                    placeholder="Enter Notes"
+                                    wire:model="note"></textarea>
+                                                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" wire:click.prevent="store()"
+                            class="btn btn-primary">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" wire:ignore.self id="editexpense" tabindex="-1" role="dialog"
+        aria-labelledby="editexpense" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title fw-600">Edit Expense</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <div class="row g-2 align-items-center">
+                            <div class="col-md-12 mb-1">
+                                <label class="form-label">Date <span
+                                        class="text-danger">*</span></label>
+                                <input type="date" required class="form-control" wire:model="expense_date">
+                                                            </div>
+                            <div class="col-md-12 mb-1">
+                                <label
+                                    class="form-label">Expense Category<span
+                                        class="text-danger">*</span></label>
+                                                                <select class="form-control" wire:model="expense_category_id">
+                                    <option value="">
+                                        Choose Expense Category
+                                    </option>
+                                                                            <option value=25>tes</option>
+                                                                            <option value=24>Salary &amp; Wages</option>
+                                                                            <option value=23>Electricity Bill</option>
+                                                                            <option value=17>Detergente</option>
+                                                                            <option value=15>Electricidade</option>
+                                                                            <option value=14>Reparação de Máquinas de Lavar</option>
+                                                                            <option value=13>Manutenção de Máquinas de Lavar</option>
+                                                                            <option value=12>Manutenção Máquinas de Secagem</option>
+                                                                            <option value=2>Reagentes</option>
+                                                                    </select>
+                                                                </select>
+                            </div>
+                            <div class="col-md-12 mb-1">
+                                <label class="form-label">Expense Amount
+                                    <span class="text-danger">*</span></label>
+                                <input type="number" required class="form-control"
+                                    placeholder="Enter Amount"
+                                    wire:model="expense_amount">
+                                                            </div>
+                            <div class="col-md-12 mb-2">
+                                <label
+                                    class="form-label">Payment Mode</label>
+                                <select class="form-select" wire:model="payment_mode">
+                                    <option value="">Choose Payment Mode
+                                    </option>
+                                    <option class="select-box" value="1">Cash
+                                    </option>
+                                    <option class="select-box" value="2">UPI
+                                    </option>
+                                    <option class="select-box" value="3">Card
+                                    </option>
+                                    <option class="select-box" value="4">Cheque
+                                    </option>
+                                    <option class="select-box" value="5">
+                                        Bank Transfer</option>
+                                </select>
+                                                            </div>
+                            <div class="col-md-12 mb-1">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <label class="form-label">Tax Included
+                                        ?</label>
+                                    <div class="form-check ms-4">
+                                        <input class="form-check-input" type="radio" id="no" name="tax"
+                                            wire:model="tax_included" value="0">
+                                        <label class="form-check-label"
+                                            for="no">No</label>
+                                    </div>
+                                    <div class="form-check ms-2">
+                                        <input class="form-check-input" type="radio" id="yes" name="tax"
+                                            wire:model="tax_included" value="1">
+                                        <label class="form-check-label"
+                                            for="yes">Yes</label>
+                                    </div>
+                                                                    </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="inputAddress"
+                                    class="form-label">Note</label>
+                                <textarea class="form-control"
+                                    placeholder="Enter Notes"
+                                    wire:model="note"></textarea>
+                                                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" wire:click.prevent="update()" class="btn btn-primary">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Livewire Component wire-end:9f0lmGgri3o9hI4JaPFR -->
+    </div>
+    </main>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/core/popper.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/core/bootstrap.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/smooth-scrollbar.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/toastr.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/dragula/dragula.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/argon-dashboard.min.js"></script>
+    <script>
+        "use strict";
+        var win = navigator.platform.indexOf('Win') > -1;
+        if (win && document.querySelector('#sidenav-scrollbar')) {
+            var options = {
+                damping: '0.5'
+            }
+            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+        }
+    </script>
+    <script>
+    "use strict"
+     Livewire.on('closemodal',() => {
+        $('.modal').modal('hide');
+        $('.modal-backdrop').remove();
+        $('body').removeClass('modal-open');
+        $('body').removeAttr('style');
+        })
+    </script>
+    <script>
+        "use strict";
+        Livewire.on('reloadpage',() => {
+        window.location.reload();
+        })
+    </script>
+    <script>
+        "use strict";
+        window.addEventListener('alert', event => { 
+            toastr[event.detail.type](event.detail.message, event.detail.title ?? '');
+            toastr.options = {
+                "closeButton": true,
+                "progressBar": true,
+            }
+        });
+            </script>
+    <script>
+        "use strict";
+        var win = navigator.platform.indexOf('Win') > -1;
+        if (win && document.querySelector('#sidenav-scrollbar')) {
+            var options = {
+                damping: '0.5'
+            }
+            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+        }
+    </script>
+</body>
+</html>

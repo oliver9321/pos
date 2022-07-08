@@ -1,0 +1,1181 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="http://laundry.xfortechpvtltd.com/public/favicon/1655965727.png">
+    <title>
+        Lavanderia Tirol
+    </title>
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/poppinsfont.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link id="pagestyle" href="http://laundry.xfortechpvtltd.com/public/assets/css/argon-dashboard.min28b5.css?v=2.0.0" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/style.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/toastr.min.css" rel="stylesheet" />
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/chartjs.min.js"></script>
+    <script src="/livewire/livewire.js?id=c69d0f2801c01fcf8166" data-turbo-eval="false" data-turbolinks-eval="false" ></script><script data-turbo-eval="false" data-turbolinks-eval="false" >window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'HzxGYMxDgkXSncoNbmi1Q2ZJnOttBN9MfD7sKPRT';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+    <style >[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+    <script src="http://laundry.xfortechpvtltd.com/public/js/app.js" defer></script>
+    <style>
+</style></head>
+<body class="g-sidenav-show ">
+    <div class="min-height-300 bg-primary position-absolute w-100"></div>
+    <aside wire:id="pSiymQVRtyDtn0wx7EGQ" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;pSiymQVRtyDtn0wx7EGQ&quot;,&quot;name&quot;:&quot;components.side-bar&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;admin\/orders&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;5676db4a&quot;,&quot;data&quot;:{&quot;lang&quot;:[]},&quot;dataMeta&quot;:{&quot;models&quot;:{&quot;lang&quot;:{&quot;class&quot;:&quot;App\\Models\\Translation&quot;,&quot;id&quot;:1,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;}}},&quot;checksum&quot;:&quot;761886a4bbd100863a692cc0f9231eae7de392c9f7cd80a14ee148a84385c35d&quot;}}" class="  sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4 ps ps--active-y " id="sidenav-main" data-color="primary">
+        <div class="sidenav-header">
+            <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+            <a class="navbar-brand m-0" href="http://laundry.xfortechpvtltd.com/public/admin/dashboard">
+                <img src="http://laundry.xfortechpvtltd.com/public/logo/1655965727.png" class="navbar-brand-img h-100" alt="main_logo">
+                <span class="ms-2 h6 font-weight-bold text-uppercase">Lavanderia Tirol
+                </span>
+            </a>
+        </div>
+        <hr class="horizontal mt-0">
+        <div class="collapse navbar-collapse w-auto h-auto" id="sidenav-collapse-main">
+            <ul class="navbar-nav">
+                                <li class="nav-item">
+                    <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/dashboard">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-shop text-info text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Dashboard</span>
+                    </a>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/pos">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-tag text-danger text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Pos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="http://laundry.xfortechpvtltd.com/public/admin/orders">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-basket text-success text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Orders</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/order-status">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-bullet-list-67 text-warning text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Order Status Screen</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#expense" class="nav-link " aria-controls="settings" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-single-copy-04 text-danger text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Expense</span>
+                    </a>
+                    <div class="collapse " id="expense">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link   " href="http://laundry.xfortechpvtltd.com/public/admin/expense">
+                                    <span class="sidenav-mini-icon side-bar-inner"> E </span>
+                                    <span class="sidenav-normal side-bar-inner"> Expense List</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/expense/categories">
+                                    <span class="sidenav-mini-icon side-bar-inner"> E </span>
+                                    <span class="sidenav-normal side-bar-inner"> Expense Category</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/customers">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-single-02 text-pink text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Customers</span>
+                    </a>
+                </li>
+                                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#services" class="nav-link  " aria-controls="settings" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-tag text-primary text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Services</span>
+                    </a>
+                    <div class="collapse " id="services">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/service">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner">Service List</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/service/type">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner"> Service Type</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/service/addons">
+                                    <span class="sidenav-mini-icon side-bar-inner"> A </span>
+                                    <span class="sidenav-normal side-bar-inner"> Addons </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#tasks" class="nav-link " aria-controls="tasks" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-chart-bar-32 text-warning text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Reports</span>
+                    </a>
+                    <div class="collapse " id="tasks">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/daily">
+                                    <span class="sidenav-mini-icon side-bar-inner"> D </span>
+                                    <span class="sidenav-normal side-bar-inner"> Daily Report </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/order">
+                                    <span class="sidenav-mini-icon side-bar-inner"> O </span>
+                                    <span class="sidenav-normal side-bar-inner"> Order Report </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/sales">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner"> Sales Report</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/expense">
+                                    <span class="sidenav-mini-icon side-bar-inner"> E </span>
+                                    <span class="sidenav-normal side-bar-inner"> Expense Report </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/tax">
+                                    <span class="sidenav-mini-icon side-bar-inner"> T </span>
+                                    <span class="sidenav-normal side-bar-inner">Tax Report </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#settings" class="nav-link " aria-controls="settings" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-settings-gear-65 text-orange text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Tools</span>
+                    </a>
+                    <div class="collapse " id="settings">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/financial-year">
+                                    <span class="sidenav-mini-icon side-bar-inner"> F </span>
+                                    <span class="sidenav-normal side-bar-inner">Financial Year </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/translations">
+                                    <span class="sidenav-mini-icon side-bar-inner"> T </span>
+                                    <span class="sidenav-normal side-bar-inner"> Translations </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/mail">
+                                    <span class="sidenav-mini-icon side-bar-inner"> T </span>
+                                    <span class="sidenav-normal side-bar-inner"> Mail Settings </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/master">
+                                    <span class="sidenav-mini-icon side-bar-inner"> M </span>
+                                    <span class="sidenav-normal side-bar-inner"> Master Settings </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/file-tools">
+                                    <span class="sidenav-mini-icon side-bar-inner"> F </span>
+                                    <span class="sidenav-normal side-bar-inner"> File Tools </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/sms">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner">SMS Settings </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/staff">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner">Staff </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link" wire:click.prevent="logout" href="#">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-button-power text-secondary text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    <hr class="horizontal dark mt-2">
+</aside>
+<!-- Livewire Component wire-end:pSiymQVRtyDtn0wx7EGQ -->    <main class="main-content position-relative border-radius-lg ">
+    <div wire:id="4ZaWazo2kHaR37izDvDv" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;4ZaWazo2kHaR37izDvDv&quot;,&quot;name&quot;:&quot;components.header&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;admin\/orders&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;86ab9d18&quot;,&quot;data&quot;:{&quot;languages&quot;:{&quot;1&quot;:&quot;English&quot;,&quot;2&quot;:&quot;unfd&quot;,&quot;3&quot;:&quot;T\u00fcrk\u00e7e&quot;,&quot;4&quot;:&quot;Indonesia&quot;,&quot;6&quot;:&quot;francais&quot;,&quot;7&quot;:&quot;francais&quot;,&quot;8&quot;:&quot;Test&quot;,&quot;9&quot;:&quot;Portugu\u00eas&quot;,&quot;10&quot;:&quot;Tamil&quot;,&quot;12&quot;:&quot;English&quot;,&quot;13&quot;:&quot;English&quot;,&quot;14&quot;:&quot;Kurdish&quot;,&quot;15&quot;:&quot;Deutsch&quot;,&quot;16&quot;:&quot;\u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629&quot;,&quot;17&quot;:&quot;Malayalam&quot;},&quot;lang&quot;:[]},&quot;dataMeta&quot;:{&quot;collections&quot;:[&quot;languages&quot;],&quot;models&quot;:{&quot;lang&quot;:{&quot;class&quot;:&quot;App\\Models\\Translation&quot;,&quot;id&quot;:1,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;}}},&quot;checksum&quot;:&quot;e08034056c823e3986d51c900a36b0a2b90909409b7cd82e8761d04355968259&quot;}}">
+    <nav class="navbar navbar-main navbar-expand-lg  px-0 mx-4 shadow-none border-radius-xl z-index-sticky "
+        id="navbarBlur" data-scroll="false">
+        <div class="container-fluid py-1 px-3">
+            <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none ">
+                <a href="javascript:;" class="nav-link p-0">
+                    <div class="sidenav-toggler-inner">
+                        <i class="sidenav-toggler-line bg-white"></i>
+                        <i class="sidenav-toggler-line bg-white"></i>
+                        <i class="sidenav-toggler-line bg-white"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+                <ul class="ms-md-auto  navbar-nav  justify-content-end">
+                    <li class="nav-item d-flex align-items-center me-2">
+                        <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/create" class="nav-link text-white font-weight-bold px-0"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            title="Add New Order" data-container="body"
+                            data-animation="true">
+                            <i class="fa fa-plus-circle me-sm-1"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center me-2">
+                        <a href="http://laundry.xfortechpvtltd.com/public/admin/service" class="nav-link text-white font-weight-bold px-0"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            title="Manage Services" data-container="body"
+                            data-animation="true">
+                            <i class="fa fa-tag me-sm-1"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center me-2">
+                        <a href="http://laundry.xfortechpvtltd.com/public/admin/customers" class="nav-link text-white font-weight-bold px-0"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            title="Manage Customers" data-container="body"
+                            data-animation="true">
+                            <i class="fa fa-user me-2"></i>
+                        </a>
+                    </li>
+                                        <li class="nav-item d-flex align-items-center">
+                        <div class="dropdown mx-2">
+                            <button class="btn btn-xs bg-white dropdown-toggle mb-0 text-primary" type="button"
+                                id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                English
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="top:0rem!important;">
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(1)">English</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(2)">unfd</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(3)">Türkçe</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(4)">Indonesia</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(6)">francais</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(7)">francais</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(8)">Test</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(9)">Português</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(10)">Tamil</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(12)">English</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(13)">English</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(14)">Kurdish</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(15)">Deutsch</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(16)">اللغة العربية</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(17)">Malayalam</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                    </li>
+                                        <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+                        <a href="javascript:;" class="nav-link text-white p-0" id="iconNavbarSidenav">
+                            <div class="sidenav-toggler-inner">
+                                <i class="sidenav-toggler-line bg-white"></i>
+                                <i class="sidenav-toggler-line bg-white"></i>
+                                <i class="sidenav-toggler-line bg-white"></i>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- Livewire Component wire-end:4ZaWazo2kHaR37izDvDv -->    <div class="container-fluid py-2">
+    <div wire:id="o4v3IeRVFMwcUdjcyTVx" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;o4v3IeRVFMwcUdjcyTVx&quot;,&quot;name&quot;:&quot;admin.orders.view-orders&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;admin\/orders&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;d28ae9d1&quot;,&quot;data&quot;:{&quot;orders&quot;:[],&quot;paid_amount&quot;:null,&quot;customer&quot;:null,&quot;customer_name&quot;:null,&quot;search_query&quot;:null,&quot;order&quot;:null,&quot;amount_to_pay&quot;:null,&quot;note&quot;:null,&quot;balance&quot;:null,&quot;payment_mode&quot;:null,&quot;order_filter&quot;:null,&quot;lang&quot;:[],&quot;nextCursor&quot;:&quot;eyJjcmVhdGVkX2F0IjoiMjAyMi0wNy0wNyAwOTo0NDoxNyIsIl9wb2ludHNUb05leHRJdGVtcyI6dHJ1ZX0&quot;,&quot;hasMorePages&quot;:true},&quot;dataMeta&quot;:{&quot;modelCollections&quot;:{&quot;orders&quot;:{&quot;class&quot;:&quot;App\\Models\\Order&quot;,&quot;id&quot;:[1100,1099,1098,1097,1096,1095,1094,1093,1092,1091],&quot;relations&quot;:[&quot;user&quot;],&quot;connection&quot;:&quot;mysql&quot;}},&quot;models&quot;:{&quot;lang&quot;:{&quot;class&quot;:&quot;App\\Models\\Translation&quot;,&quot;id&quot;:1,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;}}},&quot;checksum&quot;:&quot;ee2cfd7c0e6ab9fb0b65b406b59648b09f2cdd5c9841afab2462864c44492f8d&quot;}}">
+    <div class="row align-items-center justify-content-between mb-4">
+        <div class="col">
+            <h5 class="fw-500 text-white">Orders</h5>
+        </div>
+        <div class="col-auto">
+            <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/create" class="btn btn-icon btn-3 btn-white text-primary mb-0">
+                <i class="fa fa-plus me-2"></i>Add New Order
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+                <div class="card-header p-4">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <input type="text" class="form-control"
+                                placeholder="Search Here"
+                                wire:model="search_query">
+                        </div>
+                        <div class="col-md-3">
+                            <select class="form-select" wire:model="order_filter">
+                                <option class="select-box" value="">
+                                    All Orders
+                                </option>
+                                <option class="select-box" value="0">Pending
+                                </option>
+                                <option class="select-box" value="1">
+                                    Processing
+                                </option>
+                                <option class="select-box" value="2">
+                                    Ready To Deliver</option>
+                                <option class="select-box" value="3">Delivered
+                                </option>
+                                <option class="select-box" value="4">Returned
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table align-items-center mb-0">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th class="text-uppercase text-secondary text-xs opacity-7">
+                                        Order Info</th>
+                                    <th class="text-uppercase text-secondary text-xs  opacity-7">
+                                        Customer</th>
+                                    <th class="text-uppercase text-secondary text-xs  opacity-7">
+                                        Order Amount</th>
+                                    <th class="text-center text-uppercase text-secondary text-xs opacity-7">
+                                        Status</th>
+                                    <th class="text-uppercase text-secondary text-xs opacity-7">
+                                        Payment</th>
+                                        <th class="text-uppercase text-secondary text-xs opacity-7 ps-2">
+                                            Created By</th>
+                                    <th class="text-secondary opacity-7"></th>
+                                </tr>
+                            </thead>
+                            <tbody wire:poll="refresh">
+                                                                
+                                    <tr>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order ID :</span>
+                                                <span class="font-weight-bold">ORD-1100</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order Date:</span>
+                                                <span
+                                                    class="font-weight-bold">08/07/22</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Delivery Date:</span>
+                                                <span
+                                                    class="font-weight-bold">08/07/22</span>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">
+                                                issa
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">92277585</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">R$
+                                                1,109.90</p>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                                                                            <a type="button"
+                                                    class="badge badge-sm bg-secondary text-uppercase">Pending</a>
+                                                                                    </td>
+                                        <td class="ps-3">
+                                                                                        <p class="text-sm mb-0">
+                                                <span
+                                                    class="me-2">Total Amount:</span>
+                                                <span class="font-weight-bold">R$
+                                                    1,109.90</span>
+                                            </p>
+                                            <p class="text-sm mb-1">
+                                                <span
+                                                    class="me-2">Paid Amount:</span>
+
+                                                <span class="font-weight-bold">R$
+                                                    109.90</span>
+                                            </p>
+                                                                                                                                        <a data-bs-toggle="modal" data-bs-target="#addpayment"
+                                                    wire:click="payment(1100)" type="button"
+                                                    class="badge badge-xs badge-success text-xs fw-600">
+                                                    Add Payment
+                                                </a>
+                                           
+                                                                                                                                </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                Admin</p>
+                                        </td>
+                                        <td>
+                                            <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/view/1100" type="button"
+                                                class="badge badge-xs badge-primary text-xs fw-600">
+                                                View
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                
+                                    <tr>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order ID :</span>
+                                                <span class="font-weight-bold">ORD-1099</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order Date:</span>
+                                                <span
+                                                    class="font-weight-bold">08/07/22</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Delivery Date:</span>
+                                                <span
+                                                    class="font-weight-bold">08/07/22</span>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">
+                                                issa
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">92277585</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">R$
+                                                38.50</p>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                                                                            <a type="button"
+                                                    class="badge badge-sm bg-primary text-uppercase">Delivered</a>
+                                                                                    </td>
+                                        <td class="ps-3">
+                                                                                        <p class="text-sm mb-0">
+                                                <span
+                                                    class="me-2">Total Amount:</span>
+                                                <span class="font-weight-bold">R$
+                                                    38.50</span>
+                                            </p>
+                                            <p class="text-sm mb-1">
+                                                <span
+                                                    class="me-2">Paid Amount:</span>
+
+                                                <span class="font-weight-bold">R$
+                                                    38.50</span>
+                                            </p>
+                                                                                            <a data-bs-toggle="modal" type="button"
+                                                    class="badge badge-xs badge-dark text-xs fw-600">
+                                                    Fully Paid
+                                                </a>
+                                                                                    </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                Admin</p>
+                                        </td>
+                                        <td>
+                                            <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/view/1099" type="button"
+                                                class="badge badge-xs badge-primary text-xs fw-600">
+                                                View
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                
+                                    <tr>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order ID :</span>
+                                                <span class="font-weight-bold">ORD-1098</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order Date:</span>
+                                                <span
+                                                    class="font-weight-bold">08/07/22</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Delivery Date:</span>
+                                                <span
+                                                    class="font-weight-bold">08/07/22</span>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">
+                                                Waleed Alsadi
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">94919627</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">R$
+                                                3,025.00</p>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                                                                            <a type="button"
+                                                    class="badge badge-sm bg-warning text-uppercase">Processing</a>
+                                                                                    </td>
+                                        <td class="ps-3">
+                                                                                        <p class="text-sm mb-0">
+                                                <span
+                                                    class="me-2">Total Amount:</span>
+                                                <span class="font-weight-bold">R$
+                                                    3,025.00</span>
+                                            </p>
+                                            <p class="text-sm mb-1">
+                                                <span
+                                                    class="me-2">Paid Amount:</span>
+
+                                                <span class="font-weight-bold">R$
+                                                    20.00</span>
+                                            </p>
+                                                                                                                                        <a data-bs-toggle="modal" data-bs-target="#addpayment"
+                                                    wire:click="payment(1098)" type="button"
+                                                    class="badge badge-xs badge-success text-xs fw-600">
+                                                    Add Payment
+                                                </a>
+                                           
+                                                                                                                                </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                Admin</p>
+                                        </td>
+                                        <td>
+                                            <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/view/1098" type="button"
+                                                class="badge badge-xs badge-primary text-xs fw-600">
+                                                View
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                
+                                    <tr>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order ID :</span>
+                                                <span class="font-weight-bold">ORD-1097</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order Date:</span>
+                                                <span
+                                                    class="font-weight-bold">08/07/22</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Delivery Date:</span>
+                                                <span
+                                                    class="font-weight-bold">08/07/22</span>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">
+                                                Mohammed Shukur
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">+9647503306363</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">R$
+                                                2,968.90</p>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                                                                            <a type="button"
+                                                    class="badge badge-sm bg-success text-uppercase">Ready To Deliver</a>
+                                                                                    </td>
+                                        <td class="ps-3">
+                                                                                        <p class="text-sm mb-0">
+                                                <span
+                                                    class="me-2">Total Amount:</span>
+                                                <span class="font-weight-bold">R$
+                                                    2,968.90</span>
+                                            </p>
+                                            <p class="text-sm mb-1">
+                                                <span
+                                                    class="me-2">Paid Amount:</span>
+
+                                                <span class="font-weight-bold">R$
+                                                    2,968.90</span>
+                                            </p>
+                                                                                            <a data-bs-toggle="modal" type="button"
+                                                    class="badge badge-xs badge-dark text-xs fw-600">
+                                                    Fully Paid
+                                                </a>
+                                                                                    </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                Admin</p>
+                                        </td>
+                                        <td>
+                                            <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/view/1097" type="button"
+                                                class="badge badge-xs badge-primary text-xs fw-600">
+                                                View
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                
+                                    <tr>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order ID :</span>
+                                                <span class="font-weight-bold">ORD-1096</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order Date:</span>
+                                                <span
+                                                    class="font-weight-bold">07/07/22</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Delivery Date:</span>
+                                                <span
+                                                    class="font-weight-bold">07/07/22</span>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">
+                                                Waleed Alsadi
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">94919627</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">R$
+                                                137.50</p>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                                                                            <a type="button"
+                                                    class="badge badge-sm bg-primary text-uppercase">Delivered</a>
+                                                                                    </td>
+                                        <td class="ps-3">
+                                                                                        <p class="text-sm mb-0">
+                                                <span
+                                                    class="me-2">Total Amount:</span>
+                                                <span class="font-weight-bold">R$
+                                                    137.50</span>
+                                            </p>
+                                            <p class="text-sm mb-1">
+                                                <span
+                                                    class="me-2">Paid Amount:</span>
+
+                                                <span class="font-weight-bold">R$
+                                                    137.50</span>
+                                            </p>
+                                                                                            <a data-bs-toggle="modal" type="button"
+                                                    class="badge badge-xs badge-dark text-xs fw-600">
+                                                    Fully Paid
+                                                </a>
+                                                                                    </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                Admin</p>
+                                        </td>
+                                        <td>
+                                            <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/view/1096" type="button"
+                                                class="badge badge-xs badge-primary text-xs fw-600">
+                                                View
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                
+                                    <tr>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order ID :</span>
+                                                <span class="font-weight-bold">ORD-1095</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order Date:</span>
+                                                <span
+                                                    class="font-weight-bold">07/07/22</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Delivery Date:</span>
+                                                <span
+                                                    class="font-weight-bold">07/07/22</span>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">
+                                                induwara wickramasinghe
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">+94763524195</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">R$
+                                                3,080.00</p>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                                                                            <a type="button"
+                                                    class="badge badge-sm bg-warning text-uppercase">Processing</a>
+                                                                                    </td>
+                                        <td class="ps-3">
+                                                                                        <p class="text-sm mb-0">
+                                                <span
+                                                    class="me-2">Total Amount:</span>
+                                                <span class="font-weight-bold">R$
+                                                    3,080.00</span>
+                                            </p>
+                                            <p class="text-sm mb-1">
+                                                <span
+                                                    class="me-2">Paid Amount:</span>
+
+                                                <span class="font-weight-bold">R$
+                                                    0.00</span>
+                                            </p>
+                                                                                                                                        <a data-bs-toggle="modal" data-bs-target="#addpayment"
+                                                    wire:click="payment(1095)" type="button"
+                                                    class="badge badge-xs badge-success text-xs fw-600">
+                                                    Add Payment
+                                                </a>
+                                           
+                                                                                                                                </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                Admin</p>
+                                        </td>
+                                        <td>
+                                            <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/view/1095" type="button"
+                                                class="badge badge-xs badge-primary text-xs fw-600">
+                                                View
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                
+                                    <tr>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order ID :</span>
+                                                <span class="font-weight-bold">ORD-1094</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order Date:</span>
+                                                <span
+                                                    class="font-weight-bold">07/07/22</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Delivery Date:</span>
+                                                <span
+                                                    class="font-weight-bold">07/07/22</span>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">
+                                                Walk In Customer
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">-</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">R$
+                                                583.00</p>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                                                                            <a type="button"
+                                                    class="badge badge-sm bg-success text-uppercase">Ready To Deliver</a>
+                                                                                    </td>
+                                        <td class="ps-3">
+                                                                                        <p class="text-sm mb-0">
+                                                <span
+                                                    class="me-2">Total Amount:</span>
+                                                <span class="font-weight-bold">R$
+                                                    583.00</span>
+                                            </p>
+                                            <p class="text-sm mb-1">
+                                                <span
+                                                    class="me-2">Paid Amount:</span>
+
+                                                <span class="font-weight-bold">R$
+                                                    583.00</span>
+                                            </p>
+                                                                                            <a data-bs-toggle="modal" type="button"
+                                                    class="badge badge-xs badge-dark text-xs fw-600">
+                                                    Fully Paid
+                                                </a>
+                                                                                    </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                Admin</p>
+                                        </td>
+                                        <td>
+                                            <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/view/1094" type="button"
+                                                class="badge badge-xs badge-primary text-xs fw-600">
+                                                View
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                
+                                    <tr>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order ID :</span>
+                                                <span class="font-weight-bold">ORD-1093</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order Date:</span>
+                                                <span
+                                                    class="font-weight-bold">07/07/22</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Delivery Date:</span>
+                                                <span
+                                                    class="font-weight-bold">07/07/22</span>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">
+                                                Walk In Customer
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">-</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">R$
+                                                4,020.50</p>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                                                                            <a type="button"
+                                                    class="badge badge-sm bg-success text-uppercase">Ready To Deliver</a>
+                                                                                    </td>
+                                        <td class="ps-3">
+                                                                                        <p class="text-sm mb-0">
+                                                <span
+                                                    class="me-2">Total Amount:</span>
+                                                <span class="font-weight-bold">R$
+                                                    4,020.50</span>
+                                            </p>
+                                            <p class="text-sm mb-1">
+                                                <span
+                                                    class="me-2">Paid Amount:</span>
+
+                                                <span class="font-weight-bold">R$
+                                                    4,020.50</span>
+                                            </p>
+                                                                                            <a data-bs-toggle="modal" type="button"
+                                                    class="badge badge-xs badge-dark text-xs fw-600">
+                                                    Fully Paid
+                                                </a>
+                                                                                    </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                Admin</p>
+                                        </td>
+                                        <td>
+                                            <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/view/1093" type="button"
+                                                class="badge badge-xs badge-primary text-xs fw-600">
+                                                View
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                
+                                    <tr>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order ID :</span>
+                                                <span class="font-weight-bold">ORD-1092</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order Date:</span>
+                                                <span
+                                                    class="font-weight-bold">15/07/22</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Delivery Date:</span>
+                                                <span
+                                                    class="font-weight-bold">07/07/22</span>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">
+                                                Shaima Al-Zubair Ibrahim
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">+54146560</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">R$
+                                                181.50</p>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                                                                            <a type="button"
+                                                    class="badge badge-sm bg-secondary text-uppercase">Pending</a>
+                                                                                    </td>
+                                        <td class="ps-3">
+                                                                                        <p class="text-sm mb-0">
+                                                <span
+                                                    class="me-2">Total Amount:</span>
+                                                <span class="font-weight-bold">R$
+                                                    181.50</span>
+                                            </p>
+                                            <p class="text-sm mb-1">
+                                                <span
+                                                    class="me-2">Paid Amount:</span>
+
+                                                <span class="font-weight-bold">R$
+                                                    181.50</span>
+                                            </p>
+                                                                                            <a data-bs-toggle="modal" type="button"
+                                                    class="badge badge-xs badge-dark text-xs fw-600">
+                                                    Fully Paid
+                                                </a>
+                                                                                    </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                Admin</p>
+                                        </td>
+                                        <td>
+                                            <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/view/1092" type="button"
+                                                class="badge badge-xs badge-primary text-xs fw-600">
+                                                View
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                                
+                                    <tr>
+                                        <td>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order ID :</span>
+                                                <span class="font-weight-bold">ORD-1091</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Order Date:</span>
+                                                <span
+                                                    class="font-weight-bold">07/07/22</span>
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">
+                                                <span
+                                                    class="me-2">Delivery Date:</span>
+                                                <span
+                                                    class="font-weight-bold">07/07/22</span>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">
+                                                Walk In Customer
+                                            </p>
+                                            <p class="text-sm px-3 mb-0">-</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-sm px-3 font-weight-bold mb-0">R$
+                                                220.00</p>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                                                                            <a type="button"
+                                                    class="badge badge-sm bg-primary text-uppercase">Delivered</a>
+                                                                                    </td>
+                                        <td class="ps-3">
+                                                                                        <p class="text-sm mb-0">
+                                                <span
+                                                    class="me-2">Total Amount:</span>
+                                                <span class="font-weight-bold">R$
+                                                    220.00</span>
+                                            </p>
+                                            <p class="text-sm mb-1">
+                                                <span
+                                                    class="me-2">Paid Amount:</span>
+
+                                                <span class="font-weight-bold">R$
+                                                    220.00</span>
+                                            </p>
+                                                                                            <a data-bs-toggle="modal" type="button"
+                                                    class="badge badge-xs badge-dark text-xs fw-600">
+                                                    Fully Paid
+                                                </a>
+                                                                                    </td>
+                                        <td>
+                                            <p class="text-sm mb-0 text-uppercase">
+                                                Admin</p>
+                                        </td>
+                                        <td>
+                                            <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/view/1091" type="button"
+                                                class="badge badge-xs badge-primary text-xs fw-600">
+                                                View
+                                            </a>
+                                        </td>
+                                    </tr>
+                                                            </tbody>
+                        </table>
+                                                <div
+                            x-data="{
+                                init () {
+                                    let observer = new IntersectionObserver((entries) => {
+                                        entries.forEach(entry => {
+                                            if (entry.isIntersecting) {
+                                                window.livewire.find('o4v3IeRVFMwcUdjcyTVx').call('loadOrders')
+                                                console.log('loading...')
+                                            }
+                                        })
+                                    }, {
+                                        root: null
+                                    });
+                                    observer.observe(this.$el);
+                                }
+                            }"
+                            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-4"
+                        >
+                           <div class="text-center pb-2 d-flex justify-content-center align-items-center">
+                               Loading...
+                               <div class="spinner-grow d-inline-flex mx-2 text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                              </div>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade " id="addpayment" tabindex="-1" role="dialog" aria-labelledby="addpayment"
+        aria-hidden="true" wire:ignore.self>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title fw-600" id="addpayment">
+                        Payment Details</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form>
+                                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary"
+                            wire:click.prevent="addPayment()">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Livewire Component wire-end:o4v3IeRVFMwcUdjcyTVx -->
+    </div>
+    </main>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/core/popper.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/core/bootstrap.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/smooth-scrollbar.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/toastr.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/dragula/dragula.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/argon-dashboard.min.js"></script>
+    <script>
+        "use strict";
+        var win = navigator.platform.indexOf('Win') > -1;
+        if (win && document.querySelector('#sidenav-scrollbar')) {
+            var options = {
+                damping: '0.5'
+            }
+            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+        }
+    </script>
+    <script>
+    "use strict"
+     Livewire.on('closemodal',() => {
+        $('.modal').modal('hide');
+        $('.modal-backdrop').remove();
+        $('body').removeClass('modal-open');
+        $('body').removeAttr('style');
+        })
+    </script>
+    <script>
+        "use strict";
+        Livewire.on('reloadpage',() => {
+        window.location.reload();
+        })
+    </script>
+    <script>
+        "use strict";
+        window.addEventListener('alert', event => { 
+            toastr[event.detail.type](event.detail.message, event.detail.title ?? '');
+            toastr.options = {
+                "closeButton": true,
+                "progressBar": true,
+            }
+        });
+            </script>
+    <script>
+        "use strict";
+        var win = navigator.platform.indexOf('Win') > -1;
+        if (win && document.querySelector('#sidenav-scrollbar')) {
+            var options = {
+                damping: '0.5'
+            }
+            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+        }
+    </script>
+</body>
+</html>

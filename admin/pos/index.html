@@ -1,0 +1,2210 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="http://laundry.xfortechpvtltd.com/public/favicon/1655965727.png">
+    <title>
+        Lavanderia Tirol
+    </title>
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/poppinsfont.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link id="pagestyle" href="http://laundry.xfortechpvtltd.com/public/assets/css/argon-dashboard.min28b5.css?v=2.0.0" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/style.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/toastr.min.css" rel="stylesheet" />
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/chartjs.min.js"></script>
+    <script src="/livewire/livewire.js?id=c69d0f2801c01fcf8166" data-turbo-eval="false" data-turbolinks-eval="false" ></script><script data-turbo-eval="false" data-turbolinks-eval="false" >window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'HzxGYMxDgkXSncoNbmi1Q2ZJnOttBN9MfD7sKPRT';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+    <style >[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+    <script src="http://laundry.xfortechpvtltd.com/public/js/app.js" defer></script>
+    <style>
+</style></head>
+<body class="g-sidenav-show ">
+    <div class="min-height-300 bg-primary position-absolute w-100"></div>
+    <aside wire:id="FgHBK9eZmZJdNJTJIDUG" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;FgHBK9eZmZJdNJTJIDUG&quot;,&quot;name&quot;:&quot;components.side-bar&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;admin\/pos&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;740ec49e&quot;,&quot;data&quot;:{&quot;lang&quot;:[]},&quot;dataMeta&quot;:{&quot;models&quot;:{&quot;lang&quot;:{&quot;class&quot;:&quot;App\\Models\\Translation&quot;,&quot;id&quot;:1,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;}}},&quot;checksum&quot;:&quot;27599ec9c3497f9f8d897525a54838191a00272959d084b3c6b667be777efe4e&quot;}}" class="  sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4 ps ps--active-y " id="sidenav-main" data-color="primary">
+        <div class="sidenav-header">
+            <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+            <a class="navbar-brand m-0" href="http://laundry.xfortechpvtltd.com/public/admin/dashboard">
+                <img src="http://laundry.xfortechpvtltd.com/public/logo/1655965727.png" class="navbar-brand-img h-100" alt="main_logo">
+                <span class="ms-2 h6 font-weight-bold text-uppercase">Lavanderia Tirol
+                </span>
+            </a>
+        </div>
+        <hr class="horizontal mt-0">
+        <div class="collapse navbar-collapse w-auto h-auto" id="sidenav-collapse-main">
+            <ul class="navbar-nav">
+                                <li class="nav-item">
+                    <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/dashboard">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-shop text-info text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Dashboard</span>
+                    </a>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link active" href="http://laundry.xfortechpvtltd.com/public/admin/pos">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-tag text-danger text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Pos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/orders">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-basket text-success text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Orders</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/order-status">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-bullet-list-67 text-warning text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Order Status Screen</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#expense" class="nav-link " aria-controls="settings" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-single-copy-04 text-danger text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Expense</span>
+                    </a>
+                    <div class="collapse " id="expense">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link   " href="http://laundry.xfortechpvtltd.com/public/admin/expense">
+                                    <span class="sidenav-mini-icon side-bar-inner"> E </span>
+                                    <span class="sidenav-normal side-bar-inner"> Expense List</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/expense/categories">
+                                    <span class="sidenav-mini-icon side-bar-inner"> E </span>
+                                    <span class="sidenav-normal side-bar-inner"> Expense Category</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/customers">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-single-02 text-pink text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Customers</span>
+                    </a>
+                </li>
+                                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#services" class="nav-link  " aria-controls="settings" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-tag text-primary text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Services</span>
+                    </a>
+                    <div class="collapse " id="services">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/service">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner">Service List</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/service/type">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner"> Service Type</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/service/addons">
+                                    <span class="sidenav-mini-icon side-bar-inner"> A </span>
+                                    <span class="sidenav-normal side-bar-inner"> Addons </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#tasks" class="nav-link " aria-controls="tasks" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-chart-bar-32 text-warning text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Reports</span>
+                    </a>
+                    <div class="collapse " id="tasks">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/daily">
+                                    <span class="sidenav-mini-icon side-bar-inner"> D </span>
+                                    <span class="sidenav-normal side-bar-inner"> Daily Report </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/order">
+                                    <span class="sidenav-mini-icon side-bar-inner"> O </span>
+                                    <span class="sidenav-normal side-bar-inner"> Order Report </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/sales">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner"> Sales Report</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/expense">
+                                    <span class="sidenav-mini-icon side-bar-inner"> E </span>
+                                    <span class="sidenav-normal side-bar-inner"> Expense Report </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/tax">
+                                    <span class="sidenav-mini-icon side-bar-inner"> T </span>
+                                    <span class="sidenav-normal side-bar-inner">Tax Report </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#settings" class="nav-link " aria-controls="settings" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-settings-gear-65 text-orange text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Tools</span>
+                    </a>
+                    <div class="collapse " id="settings">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/financial-year">
+                                    <span class="sidenav-mini-icon side-bar-inner"> F </span>
+                                    <span class="sidenav-normal side-bar-inner">Financial Year </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/translations">
+                                    <span class="sidenav-mini-icon side-bar-inner"> T </span>
+                                    <span class="sidenav-normal side-bar-inner"> Translations </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/mail">
+                                    <span class="sidenav-mini-icon side-bar-inner"> T </span>
+                                    <span class="sidenav-normal side-bar-inner"> Mail Settings </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/master">
+                                    <span class="sidenav-mini-icon side-bar-inner"> M </span>
+                                    <span class="sidenav-normal side-bar-inner"> Master Settings </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/file-tools">
+                                    <span class="sidenav-mini-icon side-bar-inner"> F </span>
+                                    <span class="sidenav-normal side-bar-inner"> File Tools </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/sms">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner">SMS Settings </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/staff">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner">Staff </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link" wire:click.prevent="logout" href="#">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-button-power text-secondary text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    <hr class="horizontal dark mt-2">
+</aside>
+<!-- Livewire Component wire-end:FgHBK9eZmZJdNJTJIDUG -->    <main class="main-content position-relative border-radius-lg ">
+    <div wire:id="sE2fHrRBnfBHTNAZmAUE" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;sE2fHrRBnfBHTNAZmAUE&quot;,&quot;name&quot;:&quot;components.header&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;admin\/pos&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;86ab9d18&quot;,&quot;data&quot;:{&quot;languages&quot;:{&quot;1&quot;:&quot;English&quot;,&quot;2&quot;:&quot;unfd&quot;,&quot;3&quot;:&quot;T\u00fcrk\u00e7e&quot;,&quot;4&quot;:&quot;Indonesia&quot;,&quot;6&quot;:&quot;francais&quot;,&quot;7&quot;:&quot;francais&quot;,&quot;8&quot;:&quot;Test&quot;,&quot;9&quot;:&quot;Portugu\u00eas&quot;,&quot;10&quot;:&quot;Tamil&quot;,&quot;12&quot;:&quot;English&quot;,&quot;13&quot;:&quot;English&quot;,&quot;14&quot;:&quot;Kurdish&quot;,&quot;15&quot;:&quot;Deutsch&quot;,&quot;16&quot;:&quot;\u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629&quot;,&quot;17&quot;:&quot;Malayalam&quot;},&quot;lang&quot;:[]},&quot;dataMeta&quot;:{&quot;collections&quot;:[&quot;languages&quot;],&quot;models&quot;:{&quot;lang&quot;:{&quot;class&quot;:&quot;App\\Models\\Translation&quot;,&quot;id&quot;:1,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;}}},&quot;checksum&quot;:&quot;13b34dcc8ecdd5c7179f8e26d8efe77e5b736872d01681873e0b0f53a1512a35&quot;}}">
+    <nav class="navbar navbar-main navbar-expand-lg  px-0 mx-4 shadow-none border-radius-xl z-index-sticky "
+        id="navbarBlur" data-scroll="false">
+        <div class="container-fluid py-1 px-3">
+            <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none ">
+                <a href="javascript:;" class="nav-link p-0">
+                    <div class="sidenav-toggler-inner">
+                        <i class="sidenav-toggler-line bg-white"></i>
+                        <i class="sidenav-toggler-line bg-white"></i>
+                        <i class="sidenav-toggler-line bg-white"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+                <ul class="ms-md-auto  navbar-nav  justify-content-end">
+                    <li class="nav-item d-flex align-items-center me-2">
+                        <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/create" class="nav-link text-white font-weight-bold px-0"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            title="Add New Order" data-container="body"
+                            data-animation="true">
+                            <i class="fa fa-plus-circle me-sm-1"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center me-2">
+                        <a href="http://laundry.xfortechpvtltd.com/public/admin/service" class="nav-link text-white font-weight-bold px-0"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            title="Manage Services" data-container="body"
+                            data-animation="true">
+                            <i class="fa fa-tag me-sm-1"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center me-2">
+                        <a href="http://laundry.xfortechpvtltd.com/public/admin/customers" class="nav-link text-white font-weight-bold px-0"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            title="Manage Customers" data-container="body"
+                            data-animation="true">
+                            <i class="fa fa-user me-2"></i>
+                        </a>
+                    </li>
+                                        <li class="nav-item d-flex align-items-center">
+                        <div class="dropdown mx-2">
+                            <button class="btn btn-xs bg-white dropdown-toggle mb-0 text-primary" type="button"
+                                id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                English
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="top:0rem!important;">
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(1)">English</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(2)">unfd</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(3)">Türkçe</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(4)">Indonesia</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(6)">francais</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(7)">francais</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(8)">Test</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(9)">Português</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(10)">Tamil</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(12)">English</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(13)">English</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(14)">Kurdish</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(15)">Deutsch</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(16)">اللغة العربية</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(17)">Malayalam</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                    </li>
+                                        <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+                        <a href="javascript:;" class="nav-link text-white p-0" id="iconNavbarSidenav">
+                            <div class="sidenav-toggler-inner">
+                                <i class="sidenav-toggler-line bg-white"></i>
+                                <i class="sidenav-toggler-line bg-white"></i>
+                                <i class="sidenav-toggler-line bg-white"></i>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- Livewire Component wire-end:sE2fHrRBnfBHTNAZmAUE -->    <div class="container-fluid py-2">
+    <div wire:id="ZajIhb0S6cgHM1HhP7sM" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;ZajIhb0S6cgHM1HhP7sM&quot;,&quot;name&quot;:&quot;admin.orders.add-orders&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;admin\/pos&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;12f69546&quot;,&quot;data&quot;:{&quot;services&quot;:[],&quot;search_query&quot;:null,&quot;order_id&quot;:&quot;ORD-1100&quot;,&quot;inputs&quot;:[],&quot;selservices&quot;:[],&quot;customer&quot;:null,&quot;date&quot;:&quot;2022-07-08&quot;,&quot;delivery_date&quot;:&quot;2022-07-08&quot;,&quot;discount&quot;:null,&quot;paid_amount&quot;:null,&quot;payment_type&quot;:null,&quot;payment_notes&quot;:null,&quot;service_types&quot;:[],&quot;service&quot;:null,&quot;inputi&quot;:null,&quot;prices&quot;:[],&quot;quantity&quot;:[],&quot;selected_type&quot;:null,&quot;addons&quot;:[],&quot;selected_addons&quot;:[],&quot;colors&quot;:[],&quot;customer_name&quot;:null,&quot;customer_phone&quot;:null,&quot;email&quot;:null,&quot;tax_no&quot;:null,&quot;address&quot;:null,&quot;selected_customer&quot;:null,&quot;customers&quot;:null,&quot;customer_query&quot;:null,&quot;is_active&quot;:1,&quot;total&quot;:null,&quot;sub_total&quot;:null,&quot;addon_total&quot;:null,&quot;tax_percent&quot;:&quot;10&quot;,&quot;tax&quot;:null,&quot;balance&quot;:null,&quot;flag&quot;:0,&quot;lang&quot;:[]},&quot;dataMeta&quot;:{&quot;modelCollections&quot;:{&quot;services&quot;:{&quot;class&quot;:&quot;App\\Models\\Service&quot;,&quot;id&quot;:[134,133,132,131,130,129,128,127,126,125,124,123,122,121,120,119,118,117,116,115,114,113,112,111,110,109,108,107,106,105,104,103,102,101,100,99,98,97,96,91,92,93,94,95,90,89,88,87,86,85,84,83,82,81,80,79,78,77,76,75,74,73,72,71,70,69,68,67,66,65,64,63,62,61,60,58,57,56,53,51,47,46,45,44,43,42,41,40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,24,23,22,21,20,19,10,9,7,8,6,5,4,3,2,1],&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;},&quot;addons&quot;:{&quot;class&quot;:&quot;App\\Models\\Addon&quot;,&quot;id&quot;:[9,8,7,2,1],&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;}},&quot;collections&quot;:[&quot;service_types&quot;],&quot;models&quot;:{&quot;lang&quot;:{&quot;class&quot;:&quot;App\\Models\\Translation&quot;,&quot;id&quot;:1,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;}}},&quot;checksum&quot;:&quot;3ff7a81377a73d53515452bce9879ad26300433864f3dc9dacba91d98d128a3c&quot;}}">
+    <div class="row align-items-center justify-content-between mb-4">
+        <div class="col">
+            <h5 class="fw-500 text-white">Add Order</h5>
+        </div>
+        <div class="col-auto">
+            <a href="http://laundry.xfortechpvtltd.com/public/admin/orders" class="btn btn-icon btn-3 btn-white text-primary mb-0">
+                <i class="fa fa-arrow-left me-2"></i> Back
+            </a>
+        </div>
+    </div>
+    <div class="row match-height">
+        <div class="col-lg-7 col-12">
+            <div class="card mb-4">
+                <div class="card-header p-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control"
+                                placeholder="Search Here"
+                                wire:model="search_query">
+                        </div>
+                    </div>
+                </div>
+                <div class="pos-card-wrapper-scroll-y my-custom-scrollbar-pos-card  mb-3">
+                    <div class="row align-items-center g-3 px-4 ">
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(134)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-top.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Jugo Rica</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(133)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/IfqITF8zih5SarBy6h31GvoUbZX9mxE1d7BMGKKu.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Flex Print</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(132)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/bed-sheets.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Kente Wash</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(131)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/hkyhgMMb9m6AaNdzLui3BFtBxNHRgyFoPQGDS5a4.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">T-Shirts</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(130)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/blazer.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">SHIRTS KL</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(129)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/full-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Tess 1</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(128)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/men-inners.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">test</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(127)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/gXfKRvd01m6ox4RRrBeuc3OFHDF06sQujqQAmjZz.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">cap</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(126)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/MIPWqPBcwQr3qlPn3RlijWxyhB3eUcRcSSO9mLIk.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">dddddd</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(125)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/carpet.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">shiping</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(124)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/shirt.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Shirt</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(123)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/blazer.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">ss</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(122)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/blazer.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">wash and iron</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(121)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/gXfKRvd01m6ox4RRrBeuc3OFHDF06sQujqQAmjZz.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">dry clean</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(120)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/pillow.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Hhh</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(119)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/jacket.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Redmi K20 Pro 1</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(118)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/full-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Full Suit</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(117)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/shirt.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Shirt</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(116)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/MIPWqPBcwQr3qlPn3RlijWxyhB3eUcRcSSO9mLIk.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">test service</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(115)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/carpet.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">pruebna</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(114)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/gXfKRvd01m6ox4RRrBeuc3OFHDF06sQujqQAmjZz.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Dhobi</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(113)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/sweater.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Shirt</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(112)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/MIPWqPBcwQr3qlPn3RlijWxyhB3eUcRcSSO9mLIk.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Shoes</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(111)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/full-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Walter Testing</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(110)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/cap.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Hair</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(109)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/bed-sheets.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Head </p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(108)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/full-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">tested</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(107)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/blazer.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">ثوب</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(106)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/jacket.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">bikash</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(105)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/carpet.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">sjaad</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(104)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/carpet.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">test123</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(103)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/kids-cloths.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">cica</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(102)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/carpet.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">test</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(101)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/pants.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Jeaz</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(100)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/bag.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Cable Tv</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(99)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/tshirt.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Tshite</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(98)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/shorts.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Burmuda</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(97)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/baby-clothes.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Frock</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(96)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/full-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Full Suit</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(91)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">SHATI </p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(92)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">SHATI SURWAAL</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(93)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">SHATI SURWAAL</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(94)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">SHATI SURWAAL</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(95)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">SHATI SURWAAL</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(90)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/carpet.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Subscriber Total Kilos</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(89)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/pants.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Trouser-Subscriber</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(88)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/bag.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">test</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(87)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/blazer.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Trousers</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(86)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-inners.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">gf</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(85)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/cap.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Caixa de Flor BJ 15</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(84)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/pants.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">بنطلون جينز</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(83)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/full-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">PIGIAMA</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(82)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-top.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Shirt</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(81)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-top.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Schweißen</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(80)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-top.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">nnn</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(79)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-inners.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">test</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(78)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/socks.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">تقاشر</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(77)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/shorts.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Testing</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(76)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-top.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">blouse</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(75)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">adadad</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(74)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-top.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">5 Kilos</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(73)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/shorts.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Pantalones Rasgados</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(72)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/bed-sheets.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Kiloan</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(71)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/sweater.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">NewService</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(70)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/shirt.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">T-Shirt</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(69)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Clothes</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(68)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-top.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">غسيل</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(67)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/shoes.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Ironing New</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(66)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/pillow.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Pillow Cover</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(65)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/full-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Clothes</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(64)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/jacket.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Kiloan Strika Saja</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(63)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/kids-cloths.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Kiloan Cuci saja</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(62)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/kids-cloths.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Kiloan Full Service</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(61)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/baby-clothes.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">baju bayi</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(60)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/carpet.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">cuci komplit</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(58)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/baby-clothes.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">roupas de bebê</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(57)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/shorts.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Bermudas</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(56)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/blazer.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Roupões</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(53)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/carpet.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Product (Future Job)</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(51)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/cap.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Bonés ou chapéus </p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(47)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/jacket.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Kaba classic</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(46)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/sweater.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Otto</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(45)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/bed-sheets.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Carpet CleANING</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(44)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/bed-sheets.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Sofas Cleaning</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(43)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/woman-clothes.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Saree</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(42)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/jeans.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Tank 2</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(41)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/pillow.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">marble Cleaning</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(40)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/pillow.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Sofa Cleaning</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(39)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/socks.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Feero</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(38)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/blazer.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">test</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(37)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/blazer.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">test</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(36)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-top.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">bgbgbgbg</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(35)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/bed-sheets.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">tst2</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(34)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/carpet.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Draperies</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(33)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/bag.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Atta Pisai</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(32)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/tshirt.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">baju</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(31)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/men-inners.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">printing</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(30)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/woman-clothes.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">afasfasdf</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(29)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/blazer.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">دشداشه عمانية</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(28)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/bed-sheets.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Washing</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(27)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/carpet.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Test</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(26)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-top.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Cura</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(25)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/carpet.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">gloss card</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(24)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/jacket.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">xssss</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(23)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/carpet.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">غسيل سجاد</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(22)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/bag.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">DDD</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(21)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/tshirt.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Pants (Kg)</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(20)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/pillow.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Travesseiros ou almofadas</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(19)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/shoes.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Tênis</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(10)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/women-inners.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Biquínes </p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(9)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/carpet.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Tapetes</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(7)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/pants.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Calças</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(8)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/shoes.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Calçados</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(6)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/shirt.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Camisas</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(5)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/full-suit.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Ternos</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(4)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/baby-dress.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Vestidos</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(3)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/bed-sheets.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Edredons ou Toalhas</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(2)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/bag.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Bolsas</p>
+                                    </a>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-3 col-6 text-center">
+                                <div class="border-dashed border-1 border-secondary border-radius-md py-1">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#servicetype"
+                                        wire:click="selectService(1)">
+                                        <div class="avatar avatar-xl mb-3">
+                                            <img src="http://laundry.xfortechpvtltd.com/public/assets/img/service-icons/baby-clothes.png"
+                                                class="rounded p-2">
+                                        </div>
+                                        <p class="text-xs font-weight-bold">Roupa de bebê</p>
+                                    </a>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5 col-12">
+            <div class="card mb-4">
+                <div class="card-header p-4">
+                    <div class="row">
+                        <div class="col-md-9 mb-3">
+                            <input type="text" wire:model="customer_query" class="form-control"
+                                placeholder=" Select A Customer ">
+                                                    </div>
+                        <div class="col-md-3 mb-3">
+                            <button type="button" class="btn btn-primary mb-0" data-bs-toggle="modal"
+                                data-bs-target="#addcustomer">
+                                <i class="fa fa-plus me-2"></i> Add
+                            </button>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" required class="form-control" readonly value="ORD-1100">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="date" class="form-control" wire:model="date">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table align-items-center mb-3">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th class="text-uppercase text-secondary text-xs opacity-7 ps-5">
+                                        Service</th>
+                                        <th class="text-uppercase text-secondary text-xs opacity-7 ps-5">
+                                            Color</th>
+                                    <th class="text-uppercase text-secondary text-xs opacity-7">
+                                        Rate</th>
+                                    <th class="text-uppercase text-secondary text-xs opacity-7">
+                                        QTY</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="order-list-wrapper-scroll-y my-custom-scrollbar-order-list">
+                        <div class="row align-items-center g-3 px-4 ">
+                                                    </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row align-items-center px-4 mb-3">
+                    <div class="col">
+                        <p class="text-sm mb-0 fw-500">Gross Total</p>
+                        <p class="text-sm text-success fw-600 mb-0">R$
+                            0.00</p>
+                    </div>
+                    <div class="col-auto">
+                        <button type="button" wire:click="clearAll"
+                            class="btn btn-danger me-2 mb-0">Clear All</button>
+                        <button type="submit" class="btn btn-primary mb-0" data-bs-toggle="modal"
+                            data-bs-target="#payment">Save and Continue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade " id="servicetype" tabindex="-1" role="dialog" aria-labelledby="servicetype"
+        aria-hidden="true" wire:ignore.self>
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title fw-600" id="servicetype">
+                        Select A Service Type</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <div class="row g-2 align-items-center"
+                            x-data="{servtypes : window.Livewire.find('ZajIhb0S6cgHM1HhP7sM').entangle('service_types'),seltype : window.Livewire.find('ZajIhb0S6cgHM1HhP7sM').entangle('selected_type')}">
+                            <template x-for="item in servtypes">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" :id="'test'+item.id" name="test"
+                                        :value="item.id" x-model="seltype">
+                                    <label class="form-check-label" :for="'test'+item.id"></label>
+                                    <span x-text="item.service_type_name"> </span>
+                                </div>
+                            </template>
+                                                    </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary"
+                            wire:click.prevent="addItem">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade " id="addcustomer" tabindex="-1" role="dialog" aria-labelledby="addcustomer"
+        aria-hidden="true" wire:ignore.self>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title fw-600" id="addcustomer">Add Customer
+                    </h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <div class="row g-2 align-items-center">
+                            <div class="col-md-12 mb-1">
+                                <label class="form-label">Customer Name
+                                    <span class="text-danger">*</span></label>
+                                <input type="text" required class="form-control"
+                                    placeholder="Enter Customer Name"
+                                    wire:model="customer_name">
+                                                            </div>
+                            <div class="col-md-12 mb-1">
+                                <label class="form-label">Phone Number <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" required class="form-control"
+                                    placeholder="Enter Phone Number"
+                                    wire:model="customer_phone">
+                                
+                            </div>
+                            <div class="col-md-12 mb-1">
+                                <label class="form-label">Email</label>
+                                <input type="text" class="form-control"
+                                    placeholder="Enter Email" wire:model="email">
+                                
+                            </div>
+                            <div class="col-md-12 mb-1">
+                                <label class="form-label">Tax Number</label>
+                                <input type="text" class="form-control"
+                                    placeholder="Enter Tax Number"
+                                    wire:model="tax_no">
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <label class="form-label">Address</label>
+                                <textarea type="text" class="form-control"
+                                    placeholder="Enter Address"
+                                    wire:model="address"></textarea>
+                            </div>
+                            <div class="col-md-12 mb-1">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="employee" checked
+                                        wire:model="is_active">
+                                    <label class="form-check-label"
+                                        for="employee">Is Active ?</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary"
+                            wire:click.prevent="createCustomer()">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade " id="payment" tabindex="-1" role="dialog" aria-labelledby="payment" aria-hidden="true"
+        wire:ignore.self>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title fw-600" id="payment">
+                        Payment Details</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <div class="row g-2 align-items-center">
+                                                            <div class="col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="addon"
+                                            id="addon9"
+                                            wire:model="selected_addons.9">
+                                        <label class="custom-control-label"
+                                            for="addon9">delivery charge</label>
+                                    </div>
+                                </div>
+                                                            <div class="col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="addon"
+                                            id="addon8"
+                                            wire:model="selected_addons.8">
+                                        <label class="custom-control-label"
+                                            for="addon8">Urgente</label>
+                                    </div>
+                                </div>
+                                                            <div class="col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="addon"
+                                            id="addon7"
+                                            wire:model="selected_addons.7">
+                                        <label class="custom-control-label"
+                                            for="addon7">Classes</label>
+                                    </div>
+                                </div>
+                                                            <div class="col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="addon"
+                                            id="addon2"
+                                            wire:model="selected_addons.2">
+                                        <label class="custom-control-label"
+                                            for="addon2">Stain Removal</label>
+                                    </div>
+                                </div>
+                                                            <div class="col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="addon"
+                                            id="addon1"
+                                            wire:model="selected_addons.1">
+                                        <label class="custom-control-label"
+                                            for="addon1">Pick-up &amp; Delivery</label>
+                                    </div>
+                                </div>
+                                                        <div class=" col-12">
+                                                                                                <hr>
+                                                                                                <div class="row align-items-center">
+                                    <div class="col-md-6 mb-1">
+                                        <label
+                                            class="form-label">Delivery Date</label>
+                                        <input type="date" class="form-control" wire:model="delivery_date">
+                                    </div>
+                                    <div class="col-md-6 mb-1">
+                                        <label
+                                            class="form-label">Discount</label>
+                                        <input type="number" class="form-control"
+                                            placeholder="Enter Amount"
+                                            wire:model="discount">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row mb-50 align-items-center">
+                                    <div class="col text-sm fw-500">Sub Total:
+                                    </div>
+                                    <div class="col-auto  text-sm fw-500">R$
+                                        0.00</div>
+                                </div>
+                                <div class="row mb-50 align-items-center">
+                                    <div class="col text-sm fw-500">Addon:</div>
+                                    <div class="col-auto text-sm fw-500">R$
+                                        0.00</div>
+                                </div>
+                                <div class="row mb-50 align-items-center">
+                                    <div class="col text-sm fw-500">Discount:</div>
+                                    <div class="col-auto  text-sm fw-500">R$
+                                        0.00</div>
+                                </div>
+                                <div class="row mb-50 align-items-center">
+                                    <div class="col text-sm fw-500">Tax
+                                        (10%):</div>
+                                    <div class="col-auto text-sm fw-500">R$
+                                        0.00</div>
+                                </div>
+                                <hr>
+                                <div class="row align-items-center">
+                                    <div class="col text-sm fw-600">Gross Total:
+                                    </div>
+                                    <div class="col-auto text-sm fw-600">R$
+                                        0.00</div>
+                                </div>
+                                <hr>
+                                <div class="row ">
+                                    <div class="col-md-4 mb-1 pr-0">
+                                        <label
+                                            class="form-label">Paid Amount</label>
+                                        <input type="number" class="form-control"
+                                            placeholder="Enter Amount"
+                                            wire:model="paid_amount">
+                                    </div>
+                                    <div class="col-md-1 m-0 p-0">
+                                        <label for="" class="form-label"> &nbsp; </label>
+                                        <button class="btn btn-icon btn-2 btn-primary " type="button" wire:click="magicFill">
+                                            <span class="btn-inner--icon px-0 mx-0"><i class="fa fa-magic m-0 p-0"></i></span>
+                                        </button>
+                                    </div>
+                                    
+                                    <div class="col-6 mx-2 mb-1 " >
+                                        <label
+                                            class="form-label">Payment Type</label>
+                                        <select class="form-select" wire:model="payment_type">
+                                            <option value="">
+                                                Choose Payment Mode
+                                            </option>
+                                            <option class="select-box" value="1">
+                                                Cash</option>
+                                            <option class="select-box" value="2">UPI
+                                            </option>
+                                            <option class="select-box" value="3">
+                                                Card</option>
+                                            <option class="select-box" value="4">
+                                                Cheque</option>
+                                            <option class="select-box" value="5">
+                                                Bank Transfer</option>
+                                        </select>
+                                    </div>
+                                                                        
+                                </div>
+                                
+                                <hr>
+                                <div class="row align-items-center">
+                                    <div class="col text-sm fw-600">Balance:</div>
+                                    <div class="col-auto text-sm fw-600">R$
+                                        0.00</div>
+                                </div>
+                                <hr>
+                                <div class="col-12">
+                                    <label
+                                        class="form-label">Notes/Remarks</label>
+                                    <textarea class="form-control"
+                                        placeholder="Enter Notes"
+                                        wire:model="payment_notes"></textarea>
+                                </div>
+                                                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary"
+                            wire:click.prevent="save">Save &amp; Print</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+         "use strict";
+        Livewire.on('printPage', orderId => {
+            var $id = orderId;
+            window.open(
+                'http://laundry.xfortechpvtltd.com/public/admin/orders/print-order' + '/' + $id,
+                '_blank'
+            );
+            window.onfocus = function () { setTimeout(function () { window.location.reload(); }, 100); }
+        })
+    </script>
+</div>
+<!-- Livewire Component wire-end:ZajIhb0S6cgHM1HhP7sM -->
+    </div>
+    </main>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/core/popper.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/core/bootstrap.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/smooth-scrollbar.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/toastr.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/dragula/dragula.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/argon-dashboard.min.js"></script>
+    <script>
+        "use strict";
+        var win = navigator.platform.indexOf('Win') > -1;
+        if (win && document.querySelector('#sidenav-scrollbar')) {
+            var options = {
+                damping: '0.5'
+            }
+            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+        }
+    </script>
+    <script>
+    "use strict"
+     Livewire.on('closemodal',() => {
+        $('.modal').modal('hide');
+        $('.modal-backdrop').remove();
+        $('body').removeClass('modal-open');
+        $('body').removeAttr('style');
+        })
+    </script>
+    <script>
+        "use strict";
+        Livewire.on('reloadpage',() => {
+        window.location.reload();
+        })
+    </script>
+    <script>
+        "use strict";
+        window.addEventListener('alert', event => { 
+            toastr[event.detail.type](event.detail.message, event.detail.title ?? '');
+            toastr.options = {
+                "closeButton": true,
+                "progressBar": true,
+            }
+        });
+            </script>
+    <script>
+        "use strict";
+        var win = navigator.platform.indexOf('Win') > -1;
+        if (win && document.querySelector('#sidenav-scrollbar')) {
+            var options = {
+                damping: '0.5'
+            }
+            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+        }
+    </script>
+</body>
+</html>

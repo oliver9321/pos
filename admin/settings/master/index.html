@@ -1,0 +1,1071 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="http://laundry.xfortechpvtltd.com/public/favicon/1655965727.png">
+    <title>
+        Lavanderia Tirol
+    </title>
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/poppinsfont.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link id="pagestyle" href="http://laundry.xfortechpvtltd.com/public/assets/css/argon-dashboard.min28b5.css?v=2.0.0" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/css/style.css" rel="stylesheet" />
+    <link href="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/toastr.min.css" rel="stylesheet" />
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/chartjs.min.js"></script>
+    <script src="/livewire/livewire.js?id=c69d0f2801c01fcf8166" data-turbo-eval="false" data-turbolinks-eval="false" ></script><script data-turbo-eval="false" data-turbolinks-eval="false" >window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'HzxGYMxDgkXSncoNbmi1Q2ZJnOttBN9MfD7sKPRT';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+    <style >[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+    <script src="http://laundry.xfortechpvtltd.com/public/js/app.js" defer></script>
+    <style>
+</style></head>
+<body class="g-sidenav-show ">
+    <div class="min-height-300 bg-primary position-absolute w-100"></div>
+    <aside wire:id="kJgmUx9f58CdrV0dlAK9" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;kJgmUx9f58CdrV0dlAK9&quot;,&quot;name&quot;:&quot;components.side-bar&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;admin\/settings\/master&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;4f21e60f&quot;,&quot;data&quot;:{&quot;lang&quot;:[]},&quot;dataMeta&quot;:{&quot;models&quot;:{&quot;lang&quot;:{&quot;class&quot;:&quot;App\\Models\\Translation&quot;,&quot;id&quot;:1,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;}}},&quot;checksum&quot;:&quot;d30917ff213c318cf2a80a39c92334971bbddd48eefecd52ab6dcccf257c0eb2&quot;}}" class="  sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4 ps ps--active-y " id="sidenav-main" data-color="primary">
+        <div class="sidenav-header">
+            <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+            <a class="navbar-brand m-0" href="http://laundry.xfortechpvtltd.com/public/admin/dashboard">
+                <img src="http://laundry.xfortechpvtltd.com/public/logo/1655965727.png" class="navbar-brand-img h-100" alt="main_logo">
+                <span class="ms-2 h6 font-weight-bold text-uppercase">Lavanderia Tirol
+                </span>
+            </a>
+        </div>
+        <hr class="horizontal mt-0">
+        <div class="collapse navbar-collapse w-auto h-auto" id="sidenav-collapse-main">
+            <ul class="navbar-nav">
+                                <li class="nav-item">
+                    <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/dashboard">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-shop text-info text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Dashboard</span>
+                    </a>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/pos">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-tag text-danger text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Pos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/orders">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-basket text-success text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Orders</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/order-status">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-bullet-list-67 text-warning text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Order Status Screen</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#expense" class="nav-link " aria-controls="settings" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-single-copy-04 text-danger text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Expense</span>
+                    </a>
+                    <div class="collapse " id="expense">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link   " href="http://laundry.xfortechpvtltd.com/public/admin/expense">
+                                    <span class="sidenav-mini-icon side-bar-inner"> E </span>
+                                    <span class="sidenav-normal side-bar-inner"> Expense List</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/expense/categories">
+                                    <span class="sidenav-mini-icon side-bar-inner"> E </span>
+                                    <span class="sidenav-normal side-bar-inner"> Expense Category</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/customers">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-single-02 text-pink text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Customers</span>
+                    </a>
+                </li>
+                                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#services" class="nav-link  " aria-controls="settings" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-tag text-primary text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Services</span>
+                    </a>
+                    <div class="collapse " id="services">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/service">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner">Service List</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/service/type">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner"> Service Type</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/service/addons">
+                                    <span class="sidenav-mini-icon side-bar-inner"> A </span>
+                                    <span class="sidenav-normal side-bar-inner"> Addons </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#tasks" class="nav-link " aria-controls="tasks" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-chart-bar-32 text-warning text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Reports</span>
+                    </a>
+                    <div class="collapse " id="tasks">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/daily">
+                                    <span class="sidenav-mini-icon side-bar-inner"> D </span>
+                                    <span class="sidenav-normal side-bar-inner"> Daily Report </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/order">
+                                    <span class="sidenav-mini-icon side-bar-inner"> O </span>
+                                    <span class="sidenav-normal side-bar-inner"> Order Report </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/sales">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner"> Sales Report</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/expense">
+                                    <span class="sidenav-mini-icon side-bar-inner"> E </span>
+                                    <span class="sidenav-normal side-bar-inner"> Expense Report </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="http://laundry.xfortechpvtltd.com/public/admin/reports/tax">
+                                    <span class="sidenav-mini-icon side-bar-inner"> T </span>
+                                    <span class="sidenav-normal side-bar-inner">Tax Report </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="#settings" class="nav-link active" aria-controls="settings" role="button" aria-expanded="false">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-settings-gear-65 text-orange text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Tools</span>
+                    </a>
+                    <div class="collapse show" id="settings">
+                        <ul class="nav ms-4">
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/financial-year">
+                                    <span class="sidenav-mini-icon side-bar-inner"> F </span>
+                                    <span class="sidenav-normal side-bar-inner">Financial Year </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/translations">
+                                    <span class="sidenav-mini-icon side-bar-inner"> T </span>
+                                    <span class="sidenav-normal side-bar-inner"> Translations </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/mail">
+                                    <span class="sidenav-mini-icon side-bar-inner"> T </span>
+                                    <span class="sidenav-normal side-bar-inner"> Mail Settings </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  active" href="http://laundry.xfortechpvtltd.com/public/admin/settings/master">
+                                    <span class="sidenav-mini-icon side-bar-inner"> M </span>
+                                    <span class="sidenav-normal side-bar-inner"> Master Settings </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/file-tools">
+                                    <span class="sidenav-mini-icon side-bar-inner"> F </span>
+                                    <span class="sidenav-normal side-bar-inner"> File Tools </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/sms">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner">SMS Settings </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="http://laundry.xfortechpvtltd.com/public/admin/settings/staff">
+                                    <span class="sidenav-mini-icon side-bar-inner"> S </span>
+                                    <span class="sidenav-normal side-bar-inner">Staff </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link" wire:click.prevent="logout" href="#">
+                        <div class="icon icon-shape icon-sm text-center d-flex align-items-center justify-content-center">
+                            <i class="ni ni-button-power text-secondary text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    <hr class="horizontal dark mt-2">
+</aside>
+<!-- Livewire Component wire-end:kJgmUx9f58CdrV0dlAK9 -->    <main class="main-content position-relative border-radius-lg ">
+    <div wire:id="mSBI1UcwBHTstIqDUJer" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;mSBI1UcwBHTstIqDUJer&quot;,&quot;name&quot;:&quot;components.header&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;admin\/settings\/master&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;86ab9d18&quot;,&quot;data&quot;:{&quot;languages&quot;:{&quot;1&quot;:&quot;English&quot;,&quot;2&quot;:&quot;unfd&quot;,&quot;3&quot;:&quot;T\u00fcrk\u00e7e&quot;,&quot;4&quot;:&quot;Indonesia&quot;,&quot;6&quot;:&quot;francais&quot;,&quot;7&quot;:&quot;francais&quot;,&quot;8&quot;:&quot;Test&quot;,&quot;9&quot;:&quot;Portugu\u00eas&quot;,&quot;10&quot;:&quot;Tamil&quot;,&quot;12&quot;:&quot;English&quot;,&quot;13&quot;:&quot;English&quot;,&quot;14&quot;:&quot;Kurdish&quot;,&quot;15&quot;:&quot;Deutsch&quot;,&quot;16&quot;:&quot;\u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629&quot;,&quot;17&quot;:&quot;Malayalam&quot;},&quot;lang&quot;:[]},&quot;dataMeta&quot;:{&quot;collections&quot;:[&quot;languages&quot;],&quot;models&quot;:{&quot;lang&quot;:{&quot;class&quot;:&quot;App\\Models\\Translation&quot;,&quot;id&quot;:1,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;}}},&quot;checksum&quot;:&quot;763efd9b2f0694e70ee967c6f54768bc12cd66975f127ea82480c38fb9b0997a&quot;}}">
+    <nav class="navbar navbar-main navbar-expand-lg  px-0 mx-4 shadow-none border-radius-xl z-index-sticky "
+        id="navbarBlur" data-scroll="false">
+        <div class="container-fluid py-1 px-3">
+            <div class="sidenav-toggler sidenav-toggler-inner d-xl-block d-none ">
+                <a href="javascript:;" class="nav-link p-0">
+                    <div class="sidenav-toggler-inner">
+                        <i class="sidenav-toggler-line bg-white"></i>
+                        <i class="sidenav-toggler-line bg-white"></i>
+                        <i class="sidenav-toggler-line bg-white"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+                <ul class="ms-md-auto  navbar-nav  justify-content-end">
+                    <li class="nav-item d-flex align-items-center me-2">
+                        <a href="http://laundry.xfortechpvtltd.com/public/admin/orders/create" class="nav-link text-white font-weight-bold px-0"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            title="Add New Order" data-container="body"
+                            data-animation="true">
+                            <i class="fa fa-plus-circle me-sm-1"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center me-2">
+                        <a href="http://laundry.xfortechpvtltd.com/public/admin/service" class="nav-link text-white font-weight-bold px-0"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            title="Manage Services" data-container="body"
+                            data-animation="true">
+                            <i class="fa fa-tag me-sm-1"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center me-2">
+                        <a href="http://laundry.xfortechpvtltd.com/public/admin/customers" class="nav-link text-white font-weight-bold px-0"
+                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                            title="Manage Customers" data-container="body"
+                            data-animation="true">
+                            <i class="fa fa-user me-2"></i>
+                        </a>
+                    </li>
+                                        <li class="nav-item d-flex align-items-center">
+                        <div class="dropdown mx-2">
+                            <button class="btn btn-xs bg-white dropdown-toggle mb-0 text-primary" type="button"
+                                id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                English
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="top:0rem!important;">
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(1)">English</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(2)">unfd</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(3)">Türkçe</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(4)">Indonesia</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(6)">francais</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(7)">francais</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(8)">Test</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(9)">Português</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(10)">Tamil</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(12)">English</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(13)">English</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(14)">Kurdish</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(15)">Deutsch</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(16)">اللغة العربية</a>
+                                    </li>
+                                                                    <li><a class="dropdown-item text-xs"
+                                            wire:click.prevent="changeLanguage(17)">Malayalam</a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                    </li>
+                                        <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+                        <a href="javascript:;" class="nav-link text-white p-0" id="iconNavbarSidenav">
+                            <div class="sidenav-toggler-inner">
+                                <i class="sidenav-toggler-line bg-white"></i>
+                                <i class="sidenav-toggler-line bg-white"></i>
+                                <i class="sidenav-toggler-line bg-white"></i>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- Livewire Component wire-end:mSBI1UcwBHTstIqDUJer -->    <div class="container-fluid py-2">
+    <div wire:id="Ag9cxBXPv5LrPuLm4QKo" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;Ag9cxBXPv5LrPuLm4QKo&quot;,&quot;name&quot;:&quot;admin.settings.master-setting&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;admin\/settings\/master&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;57ab045b&quot;,&quot;data&quot;:{&quot;default_currency&quot;:&quot;R$&quot;,&quot;default_application_name&quot;:&quot;Lavanderia Tirol&quot;,&quot;default_phone_number&quot;:&quot;1234568910&quot;,&quot;default_financial_year&quot;:&quot;12&quot;,&quot;default_tax_percentage&quot;:&quot;10&quot;,&quot;default_state&quot;:&quot;ajman&quot;,&quot;default_city&quot;:&quot;Ajman&quot;,&quot;default_district&quot;:&quot;Ajman&quot;,&quot;default_zip_code&quot;:&quot;00226&quot;,&quot;default_address&quot;:&quot;&quot;,&quot;user&quot;:[],&quot;email&quot;:&quot;admin@admin.com&quot;,&quot;password&quot;:null,&quot;default_logo&quot;:null,&quot;default_favicon&quot;:null,&quot;old_favicon&quot;:&quot;\/favicon\/1655965727.png&quot;,&quot;old_logo&quot;:&quot;\/logo\/1655965727.png&quot;,&quot;default_printer&quot;:&quot;2&quot;,&quot;lang&quot;:[],&quot;default_country&quot;:&quot;PE&quot;,&quot;store_tax&quot;:&quot;123456&quot;,&quot;store_email&quot;:&quot;store@store.com&quot;},&quot;dataMeta&quot;:{&quot;models&quot;:{&quot;user&quot;:{&quot;class&quot;:&quot;App\\Models\\User&quot;,&quot;id&quot;:1,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;},&quot;lang&quot;:{&quot;class&quot;:&quot;App\\Models\\Translation&quot;,&quot;id&quot;:1,&quot;relations&quot;:[],&quot;connection&quot;:&quot;mysql&quot;}}},&quot;checksum&quot;:&quot;309118d2ecbec69da6d58a3a526645809c005ad669c23a80d0581a8901c53269&quot;}}">
+    <div class="row align-items-center justify-content-between mb-4">
+        <div class="col">
+            <h5 class="fw-500 text-white">Master Settings</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body p-3">
+                    <form class="row g-3 align-items-center">
+                        <div><span
+                                class="text-sm text-uppercase">Application Details</span>
+                        </div>
+                        <hr>
+                        <div class="col-md-4">
+                            <label
+                                class="form-label">Application Name<span
+                                    class="text-danger">*</span></label>
+                            <input type="text" required autofocus class="form-control"
+                                wire:model="default_application_name">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label">App Logo</label>
+                            <input type="file" class="form-control" wire:model="default_logo">
+                        </div>
+                        <div class="col-md-4">  
+                            <label class="form-label">Fav Icon</label>
+                            <input type="file" class="form-control" wire:model="default_favicon">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label">Phone Number <span
+                                    class="text-danger">*</span></label>
+                            <input type="number" required class="form-control"
+                                placeholder="Enter Phone Number"
+                                wire:model="default_phone_number">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label">Email <span
+                                    class="text-danger">*</span></label>
+                            <input type="email" required class="form-control"
+                                placeholder="Enter Email" wire:model="email">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label">Password<span
+                                    class="text-danger">*</span></label>
+                            <input type="password" required class="form-control"
+                                placeholder="Password" wire:model="password">
+                        </div>
+                        <hr>
+                        <div><span
+                                class="text-sm text-uppercase">Finance Settings</span>
+                        </div>
+                        <hr>
+                        <div class="col-md-3">
+                            <label
+                                class="form-label">Currency Symbol</label>
+                            <input type="text" class="form-control" placeholder="" wire:model="default_currency">
+                        </div>
+                        <div class="col-md-3">
+                            <label
+                                class="form-label">Tax Percentage</label>
+                            <input type="text" class="form-control" placeholder=""
+                                wire:model="default_tax_percentage">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="">Select a financial year</label>
+                                                        <select name="financial_year" class="form-select" wire:model="default_financial_year">
+                                <option value="">Select a financial year</option>
+                                                                    <option value="12">2022                                             [ 30/03/2022 to
+                                            31/03/2023 ]
+                                                                            </option>
+                                                                    <option value="11">2022                                             [ 01/04/2022 to
+                                            31/03/2023 ]
+                                                                            </option>
+                                                                    <option value="10">2022                                             [ 01/04/2022 to
+                                            31/03/2023 ]
+                                                                            </option>
+                                                                    <option value="9">2022                                             [ 01/04/2022 to
+                                            31/03/2023 ]
+                                                                            </option>
+                                                                    <option value="8">2022                                             [ 01/04/2022 to
+                                            31/03/2023 ]
+                                                                            </option>
+                                                                    <option value="7">2022                                             [ 01/04/2022 to
+                                            31/03/2023 ]
+                                                                            </option>
+                                                                    <option value="6">2022                                             [ 01/04/2022 to
+                                            31/03/2023 ]
+                                                                            </option>
+                                                                    <option value="5">2023                                             [ 06/04/2022 to
+                                            02/03/2023 ]
+                                                                            </option>
+                                                                    <option value="4">2025                                             [ 01/04/2022 to
+                                            31/03/2023 ]
+                                                                            </option>
+                                                                    <option value="3">2026                                             [ 01/04/2022 to
+                                            31/03/2023 ]
+                                                                            </option>
+                                                                    <option value="2">2027                                             [ 01/04/2022 to
+                                            31/03/2023 ]
+                                                                            </option>
+                                                                    <option value="1">2021                                             [ 01/04/2022 to
+                                            31/03/2023 ]
+                                                                            </option>
+                                                            </select>
+                        </div>
+                        <hr>
+                        <div><span
+                                class="text-sm text-uppercase">Firm Address</span>
+                        </div>
+                        <hr>
+                                                <div class="col-md-3">
+                            <label class="form-label">Country</label>
+                            <select class="form-select" wire:model="default_country">
+                                                                    <option value="AF">Afghanistan
+                                        [AF]</option>
+                                                                    <option value="AL">Albania
+                                        [AL]</option>
+                                                                    <option value="DZ">Algeria
+                                        [DZ]</option>
+                                                                    <option value="AS">American Samoa
+                                        [AS]</option>
+                                                                    <option value="AD">Andorra
+                                        [AD]</option>
+                                                                    <option value="AO">Angola
+                                        [AO]</option>
+                                                                    <option value="AI">Anguilla
+                                        [AI]</option>
+                                                                    <option value="AQ">Antarctica
+                                        [AQ]</option>
+                                                                    <option value="AG">Antigua And Barbuda
+                                        [AG]</option>
+                                                                    <option value="AR">Argentina
+                                        [AR]</option>
+                                                                    <option value="AM">Armenia
+                                        [AM]</option>
+                                                                    <option value="AW">Aruba
+                                        [AW]</option>
+                                                                    <option value="AU">Australia
+                                        [AU]</option>
+                                                                    <option value="AT">Austria
+                                        [AT]</option>
+                                                                    <option value="AZ">Azerbaijan
+                                        [AZ]</option>
+                                                                    <option value="BS">Bahamas The
+                                        [BS]</option>
+                                                                    <option value="BH">Bahrain
+                                        [BH]</option>
+                                                                    <option value="BD">Bangladesh
+                                        [BD]</option>
+                                                                    <option value="BB">Barbados
+                                        [BB]</option>
+                                                                    <option value="BY">Belarus
+                                        [BY]</option>
+                                                                    <option value="BE">Belgium
+                                        [BE]</option>
+                                                                    <option value="BZ">Belize
+                                        [BZ]</option>
+                                                                    <option value="BJ">Benin
+                                        [BJ]</option>
+                                                                    <option value="BM">Bermuda
+                                        [BM]</option>
+                                                                    <option value="BT">Bhutan
+                                        [BT]</option>
+                                                                    <option value="BO">Bolivia
+                                        [BO]</option>
+                                                                    <option value="BA">Bosnia and Herzegovina
+                                        [BA]</option>
+                                                                    <option value="BW">Botswana
+                                        [BW]</option>
+                                                                    <option value="BV">Bouvet Island
+                                        [BV]</option>
+                                                                    <option value="BR">Brazil
+                                        [BR]</option>
+                                                                    <option value="IO">British Indian Ocean Territory
+                                        [IO]</option>
+                                                                    <option value="BN">Brunei
+                                        [BN]</option>
+                                                                    <option value="BG">Bulgaria
+                                        [BG]</option>
+                                                                    <option value="BF">Burkina Faso
+                                        [BF]</option>
+                                                                    <option value="BI">Burundi
+                                        [BI]</option>
+                                                                    <option value="KH">Cambodia
+                                        [KH]</option>
+                                                                    <option value="CM">Cameroon
+                                        [CM]</option>
+                                                                    <option value="CA">Canada
+                                        [CA]</option>
+                                                                    <option value="CV">Cape Verde
+                                        [CV]</option>
+                                                                    <option value="KY">Cayman Islands
+                                        [KY]</option>
+                                                                    <option value="CF">Central African Republic
+                                        [CF]</option>
+                                                                    <option value="TD">Chad
+                                        [TD]</option>
+                                                                    <option value="CL">Chile
+                                        [CL]</option>
+                                                                    <option value="CN">China
+                                        [CN]</option>
+                                                                    <option value="CX">Christmas Island
+                                        [CX]</option>
+                                                                    <option value="CC">Cocos (Keeling) Islands
+                                        [CC]</option>
+                                                                    <option value="CO">Colombia
+                                        [CO]</option>
+                                                                    <option value="KM">Comoros
+                                        [KM]</option>
+                                                                    <option value="CG">Republic Of The Congo
+                                        [CG]</option>
+                                                                    <option value="CD">Democratic Republic Of The Congo
+                                        [CD]</option>
+                                                                    <option value="CK">Cook Islands
+                                        [CK]</option>
+                                                                    <option value="CR">Costa Rica
+                                        [CR]</option>
+                                                                    <option value="CI">Cote D Ivoire (Ivory Coast)
+                                        [CI]</option>
+                                                                    <option value="HR">Croatia (Hrvatska)
+                                        [HR]</option>
+                                                                    <option value="CU">Cuba
+                                        [CU]</option>
+                                                                    <option value="CY">Cyprus
+                                        [CY]</option>
+                                                                    <option value="CZ">Czech Republic
+                                        [CZ]</option>
+                                                                    <option value="DK">Denmark
+                                        [DK]</option>
+                                                                    <option value="DJ">Djibouti
+                                        [DJ]</option>
+                                                                    <option value="DM">Dominica
+                                        [DM]</option>
+                                                                    <option value="DO">Dominican Republic
+                                        [DO]</option>
+                                                                    <option value="TP">East Timor
+                                        [TP]</option>
+                                                                    <option value="EC">Ecuador
+                                        [EC]</option>
+                                                                    <option value="EG">Egypt
+                                        [EG]</option>
+                                                                    <option value="SV">El Salvador
+                                        [SV]</option>
+                                                                    <option value="GQ">Equatorial Guinea
+                                        [GQ]</option>
+                                                                    <option value="ER">Eritrea
+                                        [ER]</option>
+                                                                    <option value="EE">Estonia
+                                        [EE]</option>
+                                                                    <option value="ET">Ethiopia
+                                        [ET]</option>
+                                                                    <option value="XA">External Territories of Australia
+                                        [XA]</option>
+                                                                    <option value="FK">Falkland Islands
+                                        [FK]</option>
+                                                                    <option value="FO">Faroe Islands
+                                        [FO]</option>
+                                                                    <option value="FJ">Fiji Islands
+                                        [FJ]</option>
+                                                                    <option value="FI">Finland
+                                        [FI]</option>
+                                                                    <option value="FR">France
+                                        [FR]</option>
+                                                                    <option value="GF">French Guiana
+                                        [GF]</option>
+                                                                    <option value="PF">French Polynesia
+                                        [PF]</option>
+                                                                    <option value="TF">French Southern Territories
+                                        [TF]</option>
+                                                                    <option value="GA">Gabon
+                                        [GA]</option>
+                                                                    <option value="GM">Gambia The
+                                        [GM]</option>
+                                                                    <option value="GE">Georgia
+                                        [GE]</option>
+                                                                    <option value="DE">Germany
+                                        [DE]</option>
+                                                                    <option value="GH">Ghana
+                                        [GH]</option>
+                                                                    <option value="GI">Gibraltar
+                                        [GI]</option>
+                                                                    <option value="GR">Greece
+                                        [GR]</option>
+                                                                    <option value="GL">Greenland
+                                        [GL]</option>
+                                                                    <option value="GD">Grenada
+                                        [GD]</option>
+                                                                    <option value="GP">Guadeloupe
+                                        [GP]</option>
+                                                                    <option value="GU">Guam
+                                        [GU]</option>
+                                                                    <option value="GT">Guatemala
+                                        [GT]</option>
+                                                                    <option value="XU">Guernsey and Alderney
+                                        [XU]</option>
+                                                                    <option value="GN">Guinea
+                                        [GN]</option>
+                                                                    <option value="GW">Guinea-Bissau
+                                        [GW]</option>
+                                                                    <option value="GY">Guyana
+                                        [GY]</option>
+                                                                    <option value="HT">Haiti
+                                        [HT]</option>
+                                                                    <option value="HM">Heard and McDonald Islands
+                                        [HM]</option>
+                                                                    <option value="HN">Honduras
+                                        [HN]</option>
+                                                                    <option value="HK">Hong Kong S.A.R.
+                                        [HK]</option>
+                                                                    <option value="HU">Hungary
+                                        [HU]</option>
+                                                                    <option value="IS">Iceland
+                                        [IS]</option>
+                                                                    <option value="IN">India
+                                        [IN]</option>
+                                                                    <option value="ID">Indonesia
+                                        [ID]</option>
+                                                                    <option value="IR">Iran
+                                        [IR]</option>
+                                                                    <option value="IQ">Iraq
+                                        [IQ]</option>
+                                                                    <option value="IE">Ireland
+                                        [IE]</option>
+                                                                    <option value="IL">Israel
+                                        [IL]</option>
+                                                                    <option value="IT">Italy
+                                        [IT]</option>
+                                                                    <option value="JM">Jamaica
+                                        [JM]</option>
+                                                                    <option value="JP">Japan
+                                        [JP]</option>
+                                                                    <option value="XJ">Jersey
+                                        [XJ]</option>
+                                                                    <option value="JO">Jordan
+                                        [JO]</option>
+                                                                    <option value="KZ">Kazakhstan
+                                        [KZ]</option>
+                                                                    <option value="KE">Kenya
+                                        [KE]</option>
+                                                                    <option value="KI">Kiribati
+                                        [KI]</option>
+                                                                    <option value="KP">Korea North
+                                        [KP]</option>
+                                                                    <option value="KR">Korea South
+                                        [KR]</option>
+                                                                    <option value="KW">Kuwait
+                                        [KW]</option>
+                                                                    <option value="KG">Kyrgyzstan
+                                        [KG]</option>
+                                                                    <option value="LA">Laos
+                                        [LA]</option>
+                                                                    <option value="LV">Latvia
+                                        [LV]</option>
+                                                                    <option value="LB">Lebanon
+                                        [LB]</option>
+                                                                    <option value="LS">Lesotho
+                                        [LS]</option>
+                                                                    <option value="LR">Liberia
+                                        [LR]</option>
+                                                                    <option value="LY">Libya
+                                        [LY]</option>
+                                                                    <option value="LI">Liechtenstein
+                                        [LI]</option>
+                                                                    <option value="LT">Lithuania
+                                        [LT]</option>
+                                                                    <option value="LU">Luxembourg
+                                        [LU]</option>
+                                                                    <option value="MO">Macau S.A.R.
+                                        [MO]</option>
+                                                                    <option value="MK">Macedonia
+                                        [MK]</option>
+                                                                    <option value="MG">Madagascar
+                                        [MG]</option>
+                                                                    <option value="MW">Malawi
+                                        [MW]</option>
+                                                                    <option value="MY">Malaysia
+                                        [MY]</option>
+                                                                    <option value="MV">Maldives
+                                        [MV]</option>
+                                                                    <option value="ML">Mali
+                                        [ML]</option>
+                                                                    <option value="MT">Malta
+                                        [MT]</option>
+                                                                    <option value="XM">Man (Isle of)
+                                        [XM]</option>
+                                                                    <option value="MH">Marshall Islands
+                                        [MH]</option>
+                                                                    <option value="MQ">Martinique
+                                        [MQ]</option>
+                                                                    <option value="MR">Mauritania
+                                        [MR]</option>
+                                                                    <option value="MU">Mauritius
+                                        [MU]</option>
+                                                                    <option value="YT">Mayotte
+                                        [YT]</option>
+                                                                    <option value="MX">Mexico
+                                        [MX]</option>
+                                                                    <option value="FM">Micronesia
+                                        [FM]</option>
+                                                                    <option value="MD">Moldova
+                                        [MD]</option>
+                                                                    <option value="MC">Monaco
+                                        [MC]</option>
+                                                                    <option value="MN">Mongolia
+                                        [MN]</option>
+                                                                    <option value="MS">Montserrat
+                                        [MS]</option>
+                                                                    <option value="MA">Morocco
+                                        [MA]</option>
+                                                                    <option value="MZ">Mozambique
+                                        [MZ]</option>
+                                                                    <option value="MM">Myanmar
+                                        [MM]</option>
+                                                                    <option value="NA">Namibia
+                                        [NA]</option>
+                                                                    <option value="NR">Nauru
+                                        [NR]</option>
+                                                                    <option value="NP">Nepal
+                                        [NP]</option>
+                                                                    <option value="AN">Netherlands Antilles
+                                        [AN]</option>
+                                                                    <option value="NL">Netherlands The
+                                        [NL]</option>
+                                                                    <option value="NC">New Caledonia
+                                        [NC]</option>
+                                                                    <option value="NZ">New Zealand
+                                        [NZ]</option>
+                                                                    <option value="NI">Nicaragua
+                                        [NI]</option>
+                                                                    <option value="NE">Niger
+                                        [NE]</option>
+                                                                    <option value="NG">Nigeria
+                                        [NG]</option>
+                                                                    <option value="NU">Niue
+                                        [NU]</option>
+                                                                    <option value="NF">Norfolk Island
+                                        [NF]</option>
+                                                                    <option value="MP">Northern Mariana Islands
+                                        [MP]</option>
+                                                                    <option value="NO">Norway
+                                        [NO]</option>
+                                                                    <option value="OM">Oman
+                                        [OM]</option>
+                                                                    <option value="PK">Pakistan
+                                        [PK]</option>
+                                                                    <option value="PW">Palau
+                                        [PW]</option>
+                                                                    <option value="PS">Palestinian Territory Occupied
+                                        [PS]</option>
+                                                                    <option value="PA">Panama
+                                        [PA]</option>
+                                                                    <option value="PG">Papua new Guinea
+                                        [PG]</option>
+                                                                    <option value="PY">Paraguay
+                                        [PY]</option>
+                                                                    <option value="PE">Peru
+                                        [PE]</option>
+                                                                    <option value="PH">Philippines
+                                        [PH]</option>
+                                                                    <option value="PN">Pitcairn Island
+                                        [PN]</option>
+                                                                    <option value="PL">Poland
+                                        [PL]</option>
+                                                                    <option value="PT">Portugal
+                                        [PT]</option>
+                                                                    <option value="PR">Puerto Rico
+                                        [PR]</option>
+                                                                    <option value="QA">Qatar
+                                        [QA]</option>
+                                                                    <option value="RE">Reunion
+                                        [RE]</option>
+                                                                    <option value="RO">Romania
+                                        [RO]</option>
+                                                                    <option value="RU">Russia
+                                        [RU]</option>
+                                                                    <option value="RW">Rwanda
+                                        [RW]</option>
+                                                                    <option value="SH">Saint Helena
+                                        [SH]</option>
+                                                                    <option value="KN">Saint Kitts And Nevis
+                                        [KN]</option>
+                                                                    <option value="LC">Saint Lucia
+                                        [LC]</option>
+                                                                    <option value="PM">Saint Pierre and Miquelon
+                                        [PM]</option>
+                                                                    <option value="VC">Saint Vincent And The Grenadines
+                                        [VC]</option>
+                                                                    <option value="WS">Samoa
+                                        [WS]</option>
+                                                                    <option value="SM">San Marino
+                                        [SM]</option>
+                                                                    <option value="ST">Sao Tome and Principe
+                                        [ST]</option>
+                                                                    <option value="SA">Saudi Arabia
+                                        [SA]</option>
+                                                                    <option value="SN">Senegal
+                                        [SN]</option>
+                                                                    <option value="RS">Serbia
+                                        [RS]</option>
+                                                                    <option value="SC">Seychelles
+                                        [SC]</option>
+                                                                    <option value="SL">Sierra Leone
+                                        [SL]</option>
+                                                                    <option value="SG">Singapore
+                                        [SG]</option>
+                                                                    <option value="SK">Slovakia
+                                        [SK]</option>
+                                                                    <option value="SI">Slovenia
+                                        [SI]</option>
+                                                                    <option value="XG">Smaller Territories of the UK
+                                        [XG]</option>
+                                                                    <option value="SB">Solomon Islands
+                                        [SB]</option>
+                                                                    <option value="SO">Somalia
+                                        [SO]</option>
+                                                                    <option value="ZA">South Africa
+                                        [ZA]</option>
+                                                                    <option value="GS">South Georgia
+                                        [GS]</option>
+                                                                    <option value="SS">South Sudan
+                                        [SS]</option>
+                                                                    <option value="ES">Spain
+                                        [ES]</option>
+                                                                    <option value="LK">Sri Lanka
+                                        [LK]</option>
+                                                                    <option value="SD">Sudan
+                                        [SD]</option>
+                                                                    <option value="SR">Suricountry_name
+                                        [SR]</option>
+                                                                    <option value="SJ">Svalbard And Jan Mayen Islands
+                                        [SJ]</option>
+                                                                    <option value="SZ">Swaziland
+                                        [SZ]</option>
+                                                                    <option value="SE">Sweden
+                                        [SE]</option>
+                                                                    <option value="CH">Switzerland
+                                        [CH]</option>
+                                                                    <option value="SY">Syria
+                                        [SY]</option>
+                                                                    <option value="TW">Taiwan
+                                        [TW]</option>
+                                                                    <option value="TJ">Tajikistan
+                                        [TJ]</option>
+                                                                    <option value="TZ">Tanzania
+                                        [TZ]</option>
+                                                                    <option value="TH">Thailand
+                                        [TH]</option>
+                                                                    <option value="TG">Togo
+                                        [TG]</option>
+                                                                    <option value="TK">Tokelau
+                                        [TK]</option>
+                                                                    <option value="TO">Tonga
+                                        [TO]</option>
+                                                                    <option value="TT">Trincountry_idad And Tobago
+                                        [TT]</option>
+                                                                    <option value="TN">Tunisia
+                                        [TN]</option>
+                                                                    <option value="TR">Turkey
+                                        [TR]</option>
+                                                                    <option value="TM">Turkmenistan
+                                        [TM]</option>
+                                                                    <option value="TC">Turks And Caicos Islands
+                                        [TC]</option>
+                                                                    <option value="TV">Tuvalu
+                                        [TV]</option>
+                                                                    <option value="UG">Uganda
+                                        [UG]</option>
+                                                                    <option value="UA">Ukraine
+                                        [UA]</option>
+                                                                    <option value="AE">United Arab Emirates
+                                        [AE]</option>
+                                                                    <option value="GB">United Kingdom
+                                        [GB]</option>
+                                                                    <option value="US">United States
+                                        [US]</option>
+                                                                    <option value="UM">United States Minor Outlying Islands
+                                        [UM]</option>
+                                                                    <option value="UY">Uruguay
+                                        [UY]</option>
+                                                                    <option value="UZ">Uzbekistan
+                                        [UZ]</option>
+                                                                    <option value="VU">Vanuatu
+                                        [VU]</option>
+                                                                    <option value="VA">Vatican City State (Holy See)
+                                        [VA]</option>
+                                                                    <option value="VE">Venezuela
+                                        [VE]</option>
+                                                                    <option value="VN">Vietnam
+                                        [VN]</option>
+                                                                    <option value="VG">Virgin Islands (British)
+                                        [VG]</option>
+                                                                    <option value="VI">Virgin Islands (US)
+                                        [VI]</option>
+                                                                    <option value="WF">Wallis And Futuna Islands
+                                        [WF]</option>
+                                                                    <option value="EH">Western Sahara
+                                        [EH]</option>
+                                                                    <option value="YE">Yemen
+                                        [YE]</option>
+                                                                    <option value="YU">Yugoslavia
+                                        [YU]</option>
+                                                                    <option value="ZM">Zambia
+                                        [ZM]</option>
+                                                                    <option value="ZW">Zimbabwe
+                                        [ZW]</option>
+                                                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">State</label>
+                            <input type="text" class="form-control" placeholder="" wire:model="default_state">
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">City</label>
+                            <input type="text" class="form-control" placeholder="" wire:model="default_city">
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">District</label>
+                            <input type="text" class="form-control" placeholder="" wire:model="default_district">
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Zip Code</label>
+                            <input type="text" class="form-control" placeholder="" wire:model="default_zip_code">
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Store Email</label>
+                            <input type="email" class="form-control" placeholder="" wire:model="store_email">
+                        </div>
+                        <div class="col-md-3">
+                            <label
+                                class="form-label">Store Tax Number</label>
+                            <input type="text" class="form-control" placeholder="" wire:model="store_tax">
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="inputAddress"
+                                class="form-label">Address</label>
+                            <textarea class="form-control" placeholder="" wire:model="default_address"></textarea>
+                        </div>
+                        <hr>
+                        <div><span
+                                class="text-sm text-uppercase">Other Settings</span>
+                        </div>
+                        <hr>
+                        <div class="col-md-3">
+                            <label class="form-label">Printer POS</label>
+                            <select class="form-select" wire:model="default_printer">
+                                <option value="1">  A4 </option>
+                                <option value="2"> Thermal </option>
+                            </select>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-end">
+                            <div>
+                                <button type="submit" class="btn btn-primary ms-4"
+                                    wire:click.prevent="save()">Save</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Livewire Component wire-end:Ag9cxBXPv5LrPuLm4QKo -->
+    </div>
+    </main>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/core/popper.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/core/bootstrap.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/smooth-scrollbar.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/toastr.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/plugins/dragula/dragula.min.js"></script>
+    <script src="http://laundry.xfortechpvtltd.com/public/assets/js/argon-dashboard.min.js"></script>
+    <script>
+        "use strict";
+        var win = navigator.platform.indexOf('Win') > -1;
+        if (win && document.querySelector('#sidenav-scrollbar')) {
+            var options = {
+                damping: '0.5'
+            }
+            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+        }
+    </script>
+    <script>
+    "use strict"
+     Livewire.on('closemodal',() => {
+        $('.modal').modal('hide');
+        $('.modal-backdrop').remove();
+        $('body').removeClass('modal-open');
+        $('body').removeAttr('style');
+        })
+    </script>
+    <script>
+        "use strict";
+        Livewire.on('reloadpage',() => {
+        window.location.reload();
+        })
+    </script>
+    <script>
+        "use strict";
+        window.addEventListener('alert', event => { 
+            toastr[event.detail.type](event.detail.message, event.detail.title ?? '');
+            toastr.options = {
+                "closeButton": true,
+                "progressBar": true,
+            }
+        });
+            </script>
+    <script>
+        "use strict";
+        var win = navigator.platform.indexOf('Win') > -1;
+        if (win && document.querySelector('#sidenav-scrollbar')) {
+            var options = {
+                damping: '0.5'
+            }
+            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+        }
+    </script>
+</body>
+</html>
